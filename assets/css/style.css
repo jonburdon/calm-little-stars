@@ -6,3 +6,19 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.nav-link {
+    text-align: right;
+}
+
+/*--------------- Media Queries */
+
+@media only screen and (min-width: 768px) {
+
+.nav-padding-lg {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+}
+
