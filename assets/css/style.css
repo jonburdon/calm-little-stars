@@ -12,6 +12,38 @@
 .nav-btn-align {
     float: right;
 }
+/*--------------- Headers */
+
+.page-header {
+    display: block;
+    text-align: center;
+}
+
+
+/*--------------- Buttons */
+
+.btn-center {
+    display: inline-block;
+    text-align: center;
+}
+
+
+/*--------------- Top Callout */
+
+.container-topcallout {
+    height: 95vh;
+    background-color: aqua;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
 
 /*--------------- Media Queries */
 
