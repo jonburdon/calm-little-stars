@@ -37,22 +37,22 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-/*--------------- Reasons Callout (2nd large row) */
+/*--------------- Benefits Callout (2nd large row) */
 
-.container-reasonscallout {
-    height: 95vh;
+.container-benefitscallout {
+    height: 60vh;
     background-color: teal;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     position: relative;
@@ -61,13 +61,13 @@
 /*--------------- Facts Callout (3rd large row) */
 
 .container-factscallout {
-    height: 95vh;
+    height: 60vh;
     background-color: aqua;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     position: relative;
@@ -76,13 +76,13 @@
 /*--------------- Experience Callout (4th large row) */
 
 .container-experiencecallout {
-    height: 95vh;
+    height: 60vh;
     background-color: teal;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     position: relative;
@@ -97,4 +97,13 @@
         padding-left: 5px;
         padding-right: 5px;
     }
+}
+
+
+/*-- Markup --*/
+
+.redbox {
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: red;
 }
