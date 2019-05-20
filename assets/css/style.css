@@ -2,9 +2,7 @@
 
 /*--------------- NavBar */
 
-.navbar-nav.navbar-center {
-    color: red;
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+.nav-padding-lg {
+    padding-left: 15px;
+    padding-right: 15px;
 }
