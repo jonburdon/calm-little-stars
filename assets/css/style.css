@@ -25,6 +25,8 @@
 .btn-center {
     display: inline-block;
     text-align: center;
+
+
 }
 
 
@@ -37,11 +39,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 
