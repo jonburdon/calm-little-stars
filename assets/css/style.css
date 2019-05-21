@@ -27,6 +27,35 @@
     text-align: center;
 }
 
+/*--------------- Callouts */
+
+.container-medium {
+    height: 500px;
+}
+
+.row-small {
+    height: 60%;
+}
+
+.row-lg {
+    height: 80%;
+}
+
+.container-callout-medium {
+    height: 60vh;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    align-items: center;
+    /*justify-content: center;*/
+    /*position: relative;*/
+}
+
+.container-callout-light {
+   background-color: aqua;
+}
+
 
 /*--------------- Top Callout */
 
