@@ -98,6 +98,13 @@
     background-color: turquoise;
 }
 
+/*--------------- Old Style callout */
+
+.form-email-wide {
+display:inline-block;
+    width: 50%;
+}
+
 
 /*--------------- Old Style callout */
 
