@@ -115,6 +115,14 @@
     text-align: center;     /*-- only display left on md or above--*/
 }
 
+
+/*--------------- Social */
+
+.social-buttons {
+    display: block;
+}
+
+
 /*--------------- Forms */
 
 .form-email-wide {
@@ -124,22 +132,6 @@
 }
 
 
-
-
-/*--------------- Old Style callout */
-
-.container-experiencecallout {
-    height: 60vh;
-    background-color: teal;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /*display: flex;*/
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
 
 
 
