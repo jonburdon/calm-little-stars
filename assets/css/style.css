@@ -55,6 +55,10 @@
     height: 60vh;
 }
 
+.container-small {
+    height: 200px;
+}
+
 .row-full {
     height: 100%;
 }
