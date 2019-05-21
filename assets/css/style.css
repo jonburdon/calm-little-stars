@@ -29,16 +29,20 @@
 
 /*--------------- Callouts */
 
-.container-medium {
-    height: 500px;
+.container-large {
+    height: 95vh;
 }
 
-.row-small {
+.container-medium {
+    height: 60vh;
+}
+
+.row-medium {
     height: 60%;
 }
 
-.row-lg {
-    height: 80%;
+.row-large {
+    height: 60%;
 }
 
 .container-callout-medium {
@@ -56,53 +60,12 @@
    background-color: aqua;
 }
 
-
-/*--------------- Top Callout */
-
-.container-topcallout {
-    height: 95vh;
-    background-color: aqua;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /*display: flex;*/
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.container-callout-dark {
+    background-color: turquoise;
 }
 
-/*--------------- Benefits Callout (2nd large row) */
 
-.container-benefitscallout {
-    height: 60vh;
-    background-color: teal;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /*display: flex;*/
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-/*--------------- Facts Callout (3rd large row) */
-
-.container-factscallout {
-    height: 60vh;
-    background-color: aqua;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /*display: flex;*/
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-/*--------------- Experience Callout (4th large row) */
+/*--------------- Old Style callout */
 
 .container-experiencecallout {
     height: 60vh;
