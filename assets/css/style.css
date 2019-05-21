@@ -27,6 +27,13 @@
     text-align: center;
 }
 
+/*--------------- Content Boxes */
+
+.infobox-light {
+    margin-top: 20px;
+    background-color: lightcyan;
+}
+
 /*--------------- Callouts */
 
 .container-large {
