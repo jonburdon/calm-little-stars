@@ -31,10 +31,15 @@
 
 .infobox-light {
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: lightcyan;
 }
 
-/*--------------- Callouts */
+.box-right {
+    margin-right: 30px;
+}
+
+/*--------------- Containers */
 
 .container-large {
     height: 95vh;
@@ -42,6 +47,10 @@
 
 .container-medium {
     height: 60vh;
+}
+
+.row-full {
+    height: 100%;
 }
 
 .row-medium {
