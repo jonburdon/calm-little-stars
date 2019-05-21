@@ -28,7 +28,7 @@
 /*--------------- Containers */
 
 .container-large {
-    height: 95vh;
+    height: 60vh; /* Increases to 95% on large screens*/
 }
 
 .container-medium {
@@ -43,6 +43,8 @@
     height: 100%;
 }
 
+
+
 .row-medium {
     height: 60%;
 }
@@ -52,7 +54,7 @@
 }
 
 .row-small40 {
-    height: 350px;
+    height: 50%;
 }
 
 .row-small {
@@ -158,7 +160,9 @@
         margin-right: 0px;
     }
 
-
+.container-large {
+    height: 95vh; 
+}
 
 }
 
