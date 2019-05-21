@@ -37,6 +37,12 @@
 
 .box-right {
     margin-right: 30px;
+    margin-left: 30px;
+}
+
+.box-left {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /*--------------- Containers */
@@ -115,6 +121,18 @@
     }
 }
 
+@media only screen and (min-width: 992px) {
+    .box-right {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.box-left {
+    margin-left: 30px;
+    margin-right: 0px;
+}
+    
+}
 
 /*-- Markup --*/
 
