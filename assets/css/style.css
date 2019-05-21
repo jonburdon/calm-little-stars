@@ -45,6 +45,14 @@
     height: 60%;
 }
 
+.row-small40 {
+    height: 350px;
+}
+
+.row-small {
+    height: 20%;
+}
+
 .container-callout-medium {
     height: 60vh;
     /*-webkit-background-size: cover;*/
