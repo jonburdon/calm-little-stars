@@ -43,8 +43,6 @@
     height: 100%;
 }
 
-
-
 .row-medium {
     height: 60%;
 }
@@ -100,16 +98,16 @@
 
 /*--------------- Buttons */
 
-.btn-center {
-    display: inline-block;
-    text-align: center;
-}
+/*.btn-center {*/
+/*    display: inline-block;*/
+/*    text-align: center;*/
+/*}*/
 
-.btn-left {
-    display: inline-block;
-    text-align: center;
+/*.btn-left {*/
+/*    display: inline-block;*/
+/*    text-align: center;*/
     /*-- only display left on md or above--*/
-}
+/*}*/
 
 
 /*--------------- Social */
