@@ -28,11 +28,12 @@
 /*--------------- Containers */
 
 .container-large {
-    height: 50vh; /* Increases to 95% on large screens*/
+    height: 95vh;
+    /* Reduces to 50vh on tablet then increases to 95% on large screens*/
 }
 
 .container-small {
-    height: 150px; 
+    height: 150px;
 }
 
 .row-large {
@@ -80,8 +81,6 @@
 
 /*--------------- Buttons */
 
-
-
 /*--------------- Social */
 
 .social-buttons {
@@ -116,11 +115,15 @@
     .footer-item {
         display: inline;
     }
-    
-    .form-email-wide {
-    width: 400px;
 
-}
+    .form-email-wide {
+        width: 400px;
+
+    }
+    
+        .container-large {
+        height: 50vh;
+    }
 
 }
 
@@ -135,9 +138,9 @@
         margin-right: 0px;
     }
 
-.container-large {
-    height: 95vh; 
-}
+    .container-large {
+        height: 95vh;
+    }
 
 }
 
