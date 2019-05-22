@@ -31,6 +31,9 @@
     height: 50vh; /* Increases to 95% on large screens*/
 }
 
+.container-small {
+    height: 150px; 
+}
 
 .row-large {
     height: 60%;
