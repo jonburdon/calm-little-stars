@@ -30,6 +30,11 @@
 .container-large-top {
     padding-top: 130px;
     padding-bottom: 130px;
+    background: url('../images/dandelion.png') no-repeat bottom right fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .container-large {
@@ -74,17 +79,8 @@
     background-color: lightcyan;
 }
 
-.box-right {
-    margin-right: 30px;
-    margin-left: 30px;
-    /* Adjusts to right margin only at size md and above*/
-}
 
-.box-left {
-    margin-left: 30px;
-    margin-right: 30px;
-    /* Adjusts to left margin only at size md and above*/
-}
+
 
 .footer-item {
     display: inline;
@@ -130,15 +126,7 @@
 }
 
 @media only screen and (min-width: 992px) {
-    .box-right {
-        margin-right: 30px;
-        margin-left: 0px;
-    }
 
-    .box-left {
-        margin-left: 30px;
-        margin-right: 0px;
-    }
 
 .container-large-top {
     padding-top: 330px;
