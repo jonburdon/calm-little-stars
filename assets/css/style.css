@@ -27,10 +27,20 @@
 
 /*--------------- Containers */
 
-/*.container-large {*/
-/*    height: 95vh;*/
-    /* Reduces to 50vh on tablet then increases to 95% on large screens*/
-/*}*/
+.container-large-top {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.container-large {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 /*.container-small {*/
 /*    height: 150px;*/
@@ -110,9 +120,7 @@
 
     }
     
-    /*    .container-large {*/
-    /*    height: 35vh;*/
-    /*}*/
+
 
 }
 
@@ -127,9 +135,11 @@
         margin-right: 0px;
     }
 
-    /*.container-large {*/
-    /*    height: 95vh;*/
-    /*}*/
+.container-large-top {
+    padding-top: 330px;
+    padding-bottom: 180px;
+}
+
 
 }
 
