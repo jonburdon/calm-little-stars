@@ -45,17 +45,37 @@
 .container-first-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url('../images/dandelion.png') no-repeat bottom right fixed;
+    background: url('../images/discussion.jpg') no-repeat bottom right fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
+.container-second-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('../images/meditatingoutside2.jpg') no-repeat bottom right fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container-third-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('../images/payingattention.jpg') no-repeat bottom right fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .container-footer {
     padding-top: 30px;
     padding-bottom: 30px;
+    
 }
 
 .container-wide {
