@@ -27,18 +27,18 @@
 
 /*--------------- Containers */
 
-.container-large {
-    height: 95vh;
+/*.container-large {*/
+/*    height: 95vh;*/
     /* Reduces to 50vh on tablet then increases to 95% on large screens*/
-}
+/*}*/
 
-.container-small {
-    height: 150px;
-}
+/*.container-small {*/
+/*    height: 150px;*/
+/*}*/
 
-.row-large {
-    height: 60%;
-}
+/*.row-large {*/
+/*    height: 60%;*/
+/*}*/
 
 
 
@@ -88,11 +88,6 @@
 
 /*--------------- Forms */
 
-/*.form-email-wide {*/
-/*    display: inline-block;*/
-/*    width: 70%;*/
-/*    text-align: left;*/
-/*}*/
 
 
 
@@ -115,9 +110,9 @@
 
     }
     
-        .container-large {
-        height: 35vh;
-    }
+    /*    .container-large {*/
+    /*    height: 35vh;*/
+    /*}*/
 
 }
 
@@ -132,9 +127,9 @@
         margin-right: 0px;
     }
 
-    .container-large {
-        height: 95vh;
-    }
+    /*.container-large {*/
+    /*    height: 95vh;*/
+    /*}*/
 
 }
 
