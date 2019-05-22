@@ -93,7 +93,7 @@
 
 .form-email-wide {
     display: inline-block;
-    width: 400px;
+    width: 70%;
     text-align: left;
 }
 
@@ -116,6 +116,11 @@
     .footer-item {
         display: inline;
     }
+    
+    .form-email-wide {
+    width: 400px;
+
+}
 
 }
 
