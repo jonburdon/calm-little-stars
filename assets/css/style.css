@@ -42,6 +42,11 @@
     padding-bottom: 30px;
 }
 
+.container-wide {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 /*.container-small {*/
 /*    height: 150px;*/
 /*}*/
