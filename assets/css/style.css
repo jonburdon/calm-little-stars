@@ -18,19 +18,21 @@ h1 {
 }
 
 .nav-link {
-    text-align: right;
+    text-align: center;
 }
 
 .nav-btn-align {
     float: right;
 }
 
-/*.bg-light {*/
-/*    background-color: rgba(216, 252, 320, 0.5);*/
-/*}*/
+
 
 .navbar-light {
     background-color: rgba(216, 252, 320, 0.05) !important;
+}
+
+.nav-item {
+    background-color: rgba(216, 252, 320, 0.5) !important;
 }
 
 /*--------------- Headers */
@@ -197,6 +199,9 @@ h1 {
     padding-bottom: 180px;
 }
 
+.nav-link {
+    text-align: right;
+}
 
 }
 
