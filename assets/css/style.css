@@ -8,11 +8,19 @@ h1 {
     font-weight: 100;
 }
 
-.navbar-light .navbar-nav .nav-link {
+a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     letter-spacing: 1.5px;
     color: #fff !important;
+}
+
+a.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand {
+    font-weight: 500;
+}
+
+a:hover.navbar-brand {
+    font-weight: 700;
 }
 
 /*--------------- NavBar */
