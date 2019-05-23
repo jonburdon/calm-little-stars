@@ -1,3 +1,14 @@
+/*--------------- Fonts and Colours */
+
+body {
+    color: #d8fce6;
+    
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
 /*--------------- NavBar */
 
 .nav-padding-lg {
@@ -30,11 +41,28 @@
 .container-large-top {
     padding-top: 130px;
     padding-bottom: 130px;
-    background: url('../images/dandelion.png') no-repeat bottom right fixed;
+    /*background: url('../images/dandelion.png') no-repeat bottom right fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+/*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/*/
+
+.container-large-top::after {
+  content: "";
+  background: url(../images/dandelion.png);
+  opacity: 0.5;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }
 
 .container-large {
