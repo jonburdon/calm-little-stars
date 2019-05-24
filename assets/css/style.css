@@ -32,6 +32,19 @@ a:hover.navbar-brand {
     color: #fff;
 }
 
+
+.btn--social-icons {
+    color: white;
+    font-size: 3em;
+}
+
+.btn--social-icons:hover {
+    color: #d8fce6;
+    font-size: 3em;
+}
+
+
+
 /*--------------- NavBar */
 
 .nav-padding-lg {
@@ -112,10 +125,7 @@ a:hover.navbar-brand {
     margin-bottom: 10px;
 }
 
-.btn--social-icons {
-    color: white;
-    font-size: 3em;
-}
+
 
 /*--------------- Containers */
 
