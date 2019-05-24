@@ -23,6 +23,10 @@ a:hover.navbar-brand {
     font-weight: 700;
 }
 
+.btn-outline-success {
+    color: #fff;
+}
+
 /*--------------- NavBar */
 
 .nav-padding-lg {
@@ -170,6 +174,20 @@ a:hover.navbar-brand {
 /*--------------- Text decoration */
 
 /*--------------- Buttons */
+
+.btn-outline-success {
+    background-color: rgba(216, 252, 320, 0.4);
+    border-radius: 25px;
+    padding-right: 15px;
+    border-color: transparent;
+}
+
+.btn-outline-success:hover {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 25px;
+    padding-right: 15px;
+}
 
 /*--------------- Social */
 
