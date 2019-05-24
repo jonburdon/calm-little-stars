@@ -22,6 +22,10 @@ a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
 
 a.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand {
     font-weight: 100;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
 }
 
 a:hover.navbar-brand {
@@ -36,6 +40,10 @@ a:hover.navbar-brand {
 .btn--social-icons {
     color: white;
     font-size: 3em;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 .btn--social-icons:hover {
@@ -97,6 +105,10 @@ a:hover.navbar-brand {
     border-radius: 25px;
     padding-right: 15px;
     border-color: transparent;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
 }
 
 .btn-outline-success:hover {
@@ -106,6 +118,17 @@ a:hover.navbar-brand {
     padding-right: 15px;
 }
 
+.btn-success {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 25px;
+    padding-right: 15px;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+}
+
 .btn-success:hover {
     background-color: rgba(216, 252, 320, 0.4);
     border-radius: 25px;
@@ -113,12 +136,7 @@ a:hover.navbar-brand {
     border-color: transparent;
 }
 
-.btn-success {
-    background-color: transparent;
-    border-color: #fff;
-    border-radius: 25px;
-    padding-right: 15px;
-}
+
 
 #btn--footer {
     margin-top: 10px;
@@ -283,10 +301,3 @@ a:hover.navbar-brand {
 
 }
 
-/*-- Markup --*/
-
-.redbox {
-    border-width: 1px 1px 1px 1px;
-    border-style: solid;
-    border-color: red;
-}
