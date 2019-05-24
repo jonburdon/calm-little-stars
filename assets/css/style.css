@@ -51,8 +51,9 @@ a:hover.navbar-brand {
     border-color: #fff !important;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+/*Next block of code taken from https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
+.custom-toggler .navbar-toggler-icon { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-light {
@@ -71,7 +72,44 @@ a:hover.navbar-brand {
 }
 
 
+/*--------------- Text alignment */
 
+/*--------------- Text decoration */
+
+/*--------------- Buttons */
+
+.btn-outline-success {
+    background-color: rgba(216, 252, 320, 0.4);
+    border-radius: 25px;
+    padding-right: 15px;
+    border-color: transparent;
+}
+
+.btn-outline-success:hover {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 25px;
+    padding-right: 15px;
+}
+
+.btn-success:hover {
+    background-color: rgba(216, 252, 320, 0.4);
+    border-radius: 25px;
+    padding-right: 15px;
+    border-color: transparent;
+}
+
+.btn-success {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 25px;
+    padding-right: 15px;
+}
+
+#btn--footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -161,7 +199,7 @@ a:hover.navbar-brand {
 }
 
 .container-callout-dark {
-    background-color: turquoise;
+        background-color: #335544;
 }
 
 
@@ -178,40 +216,6 @@ a:hover.navbar-brand {
 
 .footer-item {
     display: inline;
-}
-
-/*--------------- Text alignment */
-
-/*--------------- Text decoration */
-
-/*--------------- Buttons */
-
-.btn-outline-success {
-    background-color: rgba(216, 252, 320, 0.4);
-    border-radius: 25px;
-    padding-right: 15px;
-    border-color: transparent;
-}
-
-.btn-outline-success:hover {
-    background-color: transparent;
-    border-color: #fff;
-    border-radius: 25px;
-    padding-right: 15px;
-}
-
-.btn-success:hover {
-    background-color: rgba(216, 252, 320, 0.4);
-    border-radius: 25px;
-    padding-right: 15px;
-    border-color: transparent;
-}
-
-.btn-success {
-    background-color: transparent;
-    border-color: #fff;
-    border-radius: 25px;
-    padding-right: 15px;
 }
 
 
