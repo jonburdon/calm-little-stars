@@ -189,6 +189,21 @@ a:hover.navbar-brand {
     padding-right: 15px;
 }
 
+.btn-success:hover {
+    background-color: rgba(216, 252, 320, 0.4);
+    border-radius: 25px;
+    padding-right: 15px;
+    border-color: transparent;
+}
+
+.btn-success {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 25px;
+    padding-right: 15px;
+}
+
+
 /*--------------- Social */
 
 
