@@ -21,11 +21,11 @@ a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
 }
 
 a.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand {
-    font-weight: 500;
+    font-weight: 100;
 }
 
 a:hover.navbar-brand {
-    font-weight: 700;
+    color: #d8fce6 !important;
 }
 
 .btn-outline-success {
@@ -52,8 +52,8 @@ a:hover.navbar-brand {
 }
 
 /*Next block of code taken from https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
-#custom-toggler .navbar-toggler-icon { 
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+#custom-toggler { 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-light {
@@ -231,7 +231,9 @@ a:hover.navbar-brand {
 /*--------------- Forms */
 
 
-
+.input--text {
+    border-radius: 25px;
+}
 
 
 
@@ -247,10 +249,7 @@ a:hover.navbar-brand {
         text-align: left;
     }
 
-    .form-email-wide {
-        width: 400px;
 
-    }
     
 
 
