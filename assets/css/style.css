@@ -55,6 +55,10 @@ a:hover.navbar-brand {
 
 /*--------------- NavBar */
 
+.navbar--padding {
+    padding-bottom: 15px !important;
+}
+
 .nav-padding-lg {
     padding-left: 15px;
     padding-right: 15px;
@@ -295,7 +299,7 @@ a:hover.navbar-brand {
     text-align: right;
 }
 
-.nav-item {
+.nav-item, .nav--darkgreen {
     background-color: rgba(216, 252, 320, 0.0) !important;
 }
 
