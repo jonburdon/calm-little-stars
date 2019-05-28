@@ -24,25 +24,16 @@ a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
     text-shadow: 1px 1px 2px #708781; 
 }
 
-a.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand {
-    font-weight: 100;
+a.navbar-brand, a:link.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand, a:hover.nav-link, a:active.nav-link {
+    /*font-weight: 100;*/
     transition: all 1.5s ease-in-out;
     -moz-transition: all 1.5s ease-in-out;
     -webkit-transition: all 1.5s ease-in-out;
     -o-transition: all 1.5s ease-in-out;
 }
 
-
-
-img:hover {
-    margin-left: 100px;
-    z-index: 3;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    transition: all 1.5s ease-in-out;
-    -moz-transition: all 1.5s ease-in-out;
-    -webkit-transition: all 1.5s ease-in-out;
-    -o-transition: all 1.5s ease-in-out;
+a:hover.navbar-brand, a:hover.nav-link {
+    color: #d8fce6 !important;
 }
 
 
