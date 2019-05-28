@@ -91,7 +91,9 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 .nav-item {
-    background-color: rgba(112, 135, 129, 0.8) !important;
+    /*background-color: rgba(112, 135, 129, 0.8) !important;*/
+    background-image: linear-gradient(to right, rgba(112,135,129,0) 25%, rgba(112,135,129,0.9) 35%,rgba(112,135,129,0.9) 65%, rgba(112,135,129,0) 75%) !important;
+    
 }
 
 
@@ -340,6 +342,7 @@ a:hover.navbar-brand, a:hover.nav-link {
 
 .nav-item, .nav--darkgreen {
     background-color: rgba(216, 252, 320, 0.0) !important;
+    background-image: none !important;
 }
 
 }
