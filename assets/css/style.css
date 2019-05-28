@@ -1,4 +1,5 @@
 /*--------------- Fonts and Colours */
+/* Text shadows from https://html-css-js.com/css/generator/text-shadow/ */
 
 body {
     color: #d8fce6;
@@ -6,11 +7,13 @@ body {
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
+    text-shadow: 1px 1px 2px #708781; 
 }
 
 h2, h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
+    text-shadow: 1px 1px 2px #708781; 
 }
 
 a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
