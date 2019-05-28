@@ -161,7 +161,7 @@ a:hover.navbar-brand, a:hover.nav-link {
     margin-bottom: 10px;
 }
 
-.btn--vspacetop30 {
+.btn--margintop30 {
     margin-top: 30px;
 }
 
@@ -170,24 +170,12 @@ a:hover.navbar-brand, a:hover.nav-link {
 .container-large-top {
     padding-top: 130px;
     padding-bottom: 130px;
-    position: relative;
-}
-
-.container-large-top:after {
-    /*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/ */
-    /*Edited the above to add background position, repeat and size.*/
-  content: "";
-  background: url(../images/dandelion-mobile.png);
-  opacity: 0.7;
-     background-position: center;
+    background: url('../images/dandelion-mobile.png') no-repeat bottom right fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+    opacity: 0.7;
+    position: relative;
 }
 
 .container-large {
@@ -202,25 +190,10 @@ a:hover.navbar-brand, a:hover.nav-link {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.7;
     position: relative;
 }
 
-/*.container-first-section:after {*/
-    /*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/ */
-    /*Edited the above to add background position, repeat and size.*/
-/*  content: "";*/
-/*  background: url('../images/discussion.jpg');*/
-/*  opacity: 0.7;*/
-/*     background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*  bottom: 0;*/
-/*  right: 0;*/
-/*  position: absolute;*/
-/*  z-index: -1;   */
-/*}*/
 
 .container-second-section {
     padding-top: 50px;
@@ -229,6 +202,7 @@ a:hover.navbar-brand, a:hover.nav-link {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.7;
     position: relative;
 }
 
@@ -241,6 +215,7 @@ a:hover.navbar-brand, a:hover.nav-link {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.7;
     position: relative;
 }
 
