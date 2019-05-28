@@ -185,8 +185,8 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 .container-first-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background: url('../images/discussion.jpg') no-repeat bottom right fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -296,8 +296,23 @@ a:hover.navbar-brand, a:hover.nav-link {
 
 
 .container-large-top {
-    padding-top: 110px;
-    padding-bottom: 230px;
+    padding-top: 200px;
+    padding-bottom: 430px;
+}
+
+.container-first-section {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.container-second-section {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.container-third-section {
+    padding-top: 250px;
+    padding-bottom: 250px;
 }
 
 .nav-link {
