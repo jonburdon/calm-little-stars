@@ -286,15 +286,6 @@ a:hover.navbar-brand, a:hover.nav-link {
         text-align: left;
     }
 
-
-    
-
-
-}
-
-@media only screen and (min-width: 992px) {
-
-
 .container-large-top {
     padding-top: 200px;
     padding-bottom: 430px;
@@ -314,6 +305,15 @@ a:hover.navbar-brand, a:hover.nav-link {
     padding-top: 250px;
     padding-bottom: 250px;
 }
+    
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+
+
 
 .nav-link {
     text-align: right;
