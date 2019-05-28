@@ -21,6 +21,7 @@ a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
     font-weight: 300;
     letter-spacing: 1.5px;
     color: #fff !important;
+    text-shadow: 1px 1px 2px #708781; 
 }
 
 a.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand {
@@ -31,9 +32,19 @@ a.navbar-brand, a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-bran
     -o-transition: all 1.5s ease-in-out;
 }
 
-a:hover.navbar-brand {
-    color: #d8fce6 !important;
+
+
+img:hover {
+    margin-left: 100px;
+    z-index: 3;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
 }
+
 
 .btn-outline-success {
     color: #fff;
