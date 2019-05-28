@@ -16,6 +16,11 @@ h2, h3 {
     text-shadow: 1px 1px 2px #708781; 
 }
 
+h3 {
+    padding-top: 5px;
+
+}
+
 a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -104,10 +109,7 @@ a:hover.navbar-brand, a:hover.nav-link {
     text-align: center;
 }
 
-.heading--vspacesm {
-    padding-top: 5px;
-    padding-bottom: 30px;
-}
+
 
 
 /*--------------- Text alignment */
@@ -159,7 +161,9 @@ a:hover.navbar-brand, a:hover.nav-link {
     margin-bottom: 10px;
 }
 
-
+.btn--vspacetop30 {
+    margin-top: 30px;
+}
 
 /*--------------- Containers */
 
