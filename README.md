@@ -1,14 +1,15 @@
 
-#Calm Little Stars
+# Calm Little Stars
+
 [View Site on GitHub Pages](https://jonburdon.github.io/calm-little-stars/)
 ---
-##Project Overview
+## Project Overview
 
-###Business Goals
+### Business Goals
 Increase customer subscriber numbers
 Develop business reputation - establish expertise and trust
 
-###User Needs
+### User Needs
 - Understand benefits of mindfulness
 - Be certain I can trust this business
 - When what's happening and when
@@ -16,10 +17,10 @@ Develop business reputation - establish expertise and trust
 - Sign up
 
 ---
-##UX
+## UX
 
 
-###User Stories
+### User Stories
 - User 1 - Customer who made a decision
 --As a user, I want to sign up so that I am on the waiting list
 - User 2 - Parent of child, potential customer
@@ -50,14 +51,14 @@ Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fi
 What could be implemented in future?
 1. Photography - This would ideally all be from the same shoot
 
-###CSS code snippets used
+### CSS code snippets used
 https://css-tricks.com/snippets/css/transparent-background-images/
 
 https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
 
-##Credits
+## Credits
 
-###Tools used for automation
+### Tools used for automation
 - To convert hex codes to rgba: https://www.rapidtables.com/convert/color/hex-to-rgb.html
 - To create colour pallette from image: http://www.palettefx.com/
 - To find tints and tones of a specific colour: https://coolors.co/
@@ -66,7 +67,7 @@ https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggle
 
 To Inspect which fonts are used where on various websites: Chrome Extension ‘What Font’
 
-###Images from Google Images - These are not used with permission. This is a student project, for educational purposes only.
+### Images from Google Images - These are not used with permission. This is a student project, for educational purposes only.
 
 https://static.thenounproject.com/png/754157-200.png
 http://www.athleta.net/wp-content/uploads/2016/01/Get-Outdoors_EJ-Drevno-Your-Mindful-Child.jpg
