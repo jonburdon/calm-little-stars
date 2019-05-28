@@ -6,13 +6,13 @@ body {
 }
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    text-shadow: 1px 1px 2px #708781; 
+    font-weight: 400;
+    text-shadow: 2px 2px 2px #708781; 
 }
 
 h2, h3 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     text-shadow: 1px 1px 2px #708781; 
 }
 
@@ -21,7 +21,7 @@ a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
     font-weight: 300;
     letter-spacing: 1.5px;
     color: #fff !important;
-    text-shadow: 1px 1px 2px #708781; 
+    text-shadow: 2px 2px 2px #708781; 
 }
 
 a.navbar-brand, a:link.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand, a:hover.nav-link, a:active.nav-link {
@@ -97,11 +97,16 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 
-/*--------------- Headers */
+/*--------------- Headings */
 
 .page-heading {
     display: block;
     text-align: center;
+}
+
+.heading--vspacesm {
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 
