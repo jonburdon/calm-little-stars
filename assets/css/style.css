@@ -191,7 +191,7 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 .container-first-section {
-    background: url('../images/discussion.jpg') no-repeat bottom right fixed;
+    background: url('../images/discussion.jpg') no-repeat bottom right;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -206,7 +206,7 @@ a:hover.navbar-brand, a:hover.nav-link {
 .container-second-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url('../images/meditatingoutside2.jpg') no-repeat bottom right fixed;
+    background: url('../images/meditatingoutside2.jpg') no-repeat bottom right;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,7 +218,7 @@ a:hover.navbar-brand, a:hover.nav-link {
 .container-third-section {
     padding-top: 50px;
     padding-bottom: 50px;
-    background: url('../images/payingattention.jpg') no-repeat bottom right fixed;
+    background: url('../images/payingattention.jpg') no-repeat bottom right;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -288,6 +288,10 @@ padding-bottom: 75px;
 
 }
 
+.container--top300 {
+padding-top: 300px;
+}
+
 /*--------------- Content Boxes */
 
 .infobox-light {
@@ -335,10 +339,10 @@ padding-bottom: 75px;
     padding-bottom: 430px;
 }
 
-.container-first-section {
-    padding-top: 250px;
-    padding-bottom: 250px;
-}
+/*.container-first-section {*/
+/*    padding-top: 250px;*/
+/*    padding-bottom: 250px;*/
+/*}*/
 
 .container-second-section {
     padding-top: 250px;
