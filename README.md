@@ -87,6 +87,7 @@ https://i0.wp.com/www.michaelswerdloff.com/wp-content/uploads/2014/07/MEDITATION
 https://cms-tc.pbskids.org/parents/expert-tips-and-advice/pressing-pause-how-mindfulness-helps-kids-hero.jpg?mtime=20181008031829
 
 
-##Sites used for quotations and research
+##Sites used for quotations and research and downloadable pdf
 1. https://childmind.org/article/the-art-and-science-of-mindfulness/
-2. 2. https://parentswithconfidence.com/mindfulness-with-kids/
+2. https://parentswithconfidence.com/mindfulness-with-kids/
+3. https://mindfulnessinschools.org/wp-content/uploads/2013/02/MiSP-Research-Summary-2012.pdf

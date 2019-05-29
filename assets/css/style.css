@@ -39,6 +39,8 @@ h3 {
 
 .heading--5em {
     font-size: 2em; /*Increases to 5em on lg*/
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .quote {
@@ -483,7 +485,11 @@ border-radius: 25px;
 @media only screen and (min-width: 992px) {
 
 .heading--5em {
-    font-size: 5em;
+    font-size: 3em;
+}
+
+.heading--topspace {
+    margin-top: 60px;
 }
 
 .nav-link {
