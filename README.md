@@ -56,6 +56,7 @@ What could be implemented in future?
 1. Photography - This would ideally all be from the same shoot
 2. Use javascript to ensure images are not loaded at all on mobile view
 3. Audit site for accessibility to screen readers and implement improvements
+4. Add button in footer to navigate straight to top of website
 
 ### CSS code snippets used
 https://css-tricks.com/snippets/css/transparent-background-images/
