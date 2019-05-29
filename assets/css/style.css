@@ -36,10 +36,10 @@ a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
 
 a.navbar-brand, a:link.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand, a:hover.nav-link, a:active.nav-link {
     /*font-weight: 100;*/
-    transition: all 1.5s ease-in-out;
-    -moz-transition: all 1.5s ease-in-out;
-    -webkit-transition: all 1.5s ease-in-out;
-    -o-transition: all 1.5s ease-in-out;
+    transition: color 1.5s ease-in-out;
+    -moz-transition: color 1.5s ease-in-out;
+    -webkit-transition: color 1.5s ease-in-out;
+    -o-transition: color 1.5s ease-in-out;
 }
 
 a:hover.navbar-brand, a:hover.nav-link {
@@ -55,10 +55,10 @@ a:hover.navbar-brand, a:hover.nav-link {
 .btn--social-icons {
     color: white;
     font-size: 3em;
-    transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -webkit-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
 }
 
 .btn--social-icons:hover {
@@ -122,11 +122,10 @@ a:hover.navbar-brand, a:hover.nav-link {
     background-color: rgba(216, 252, 320, 0.4);
     border-radius: 25px;
     padding-right: 15px;
-    border-color: transparent;
-    transition: all 1.5s ease-in-out;
-    -moz-transition: all 1.5s ease-in-out;
-    -webkit-transition: all 1.5s ease-in-out;
-    -o-transition: all 1.5s ease-in-out;
+    transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
+    -moz-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
+    -webkit-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
+    -o-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
 }
 
 .btn-outline-success:hover {
@@ -141,10 +140,10 @@ a:hover.navbar-brand, a:hover.nav-link {
     border-color: #fff;
     border-radius: 25px;
     padding-right: 15px;
-    transition: all 1.5s ease-in-out;
-    -moz-transition: all 1.5s ease-in-out;
-    -webkit-transition: all 1.5s ease-in-out;
-    -o-transition: all 1.5s ease-in-out;
+    transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
+    -moz-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
+    -webkit-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
+    -o-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
 }
 
 .btn-success:hover {
