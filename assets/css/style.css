@@ -218,6 +218,17 @@ button.navbar-toggler:focus {
     margin-left: 15px;
 }
 
+.iconsizing {
+    font-size: 3em;
+}
+
+/*--------------- Lists */
+
+.list-group-item {
+    background-color: inherit;
+    margin-top: 15px;
+}
+
 /*--------------- Containers */
 
 .container-large-top {
