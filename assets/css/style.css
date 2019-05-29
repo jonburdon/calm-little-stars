@@ -97,7 +97,7 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 .navbar-light {
-    background-color: rgba(216, 252, 320, 0.05) !important;
+    background-color: rgba(112, 135, 129, 0.9) !important; /* !important needed to override Bootstrap*/
 }
 
 .nav-item {
