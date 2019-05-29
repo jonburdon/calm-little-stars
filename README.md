@@ -57,6 +57,7 @@ What could be implemented in future?
 2. Use javascript to ensure images are not loaded at all on mobile view
 3. Audit site for accessibility to screen readers and implement improvements
 4. Add button in footer to navigate straight to top of website
+5. Improve form to create a full booking form - dates of classes required, number of places, safeguarding waiver etc.
 
 ### CSS code snippets used
 https://css-tricks.com/snippets/css/transparent-background-images/
