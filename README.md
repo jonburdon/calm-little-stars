@@ -78,20 +78,41 @@ Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fi
 
 The following testing protocols were followed for each page on desktop, mobile and tablet devices.
 
-1. Navigation Bar
-i. Verify that each link is correctly hyperlinked to the appropriate page. During testing, the brand text was found to be incorrectly linked.
-ii. Verify that the menu item visited is signified as the active page.
-iii. Hover over and off the button in the menu to ensure hover behaviour is as expected.
-iv. Change the width of the browser to ensure the navbar collapses when expected.
-v. Click on the navbar toggler icon to ensure the navbar menu opens as expected.
-vi. Verify that the text on the collapsed menu is clearly readbable and does not interfere with page content.
+* Navigation Bar
+1. Verify that each link is correctly hyperlinked to the appropriate page. During testing, the brand text was found to be incorrectly linked.
+2. Verify that the menu item visited is signified as the active page.
+3. Hover over and off the button in the menu to ensure hover behaviour is as expected.
+4. Change the width of the browser to ensure the navbar collapses when expected.
+5. Click on the navbar toggler icon to ensure the navbar menu opens as expected.
+6. Verify that the text on the collapsed menu is clearly readbable and does not interfere with page content.
+7. Hover over the brand text and verify the hover behaviour is as expected.
+8. Hover over each link and verify that the hover behaviour is as expected.
 
-2. Page content
-3. i. 
+* Page content
+1. Resize the width of the browser and verify that the content resizes for different screen sizes as expected.
+2. Verify that any content that should be hidden on smaller screen sizes is hidden on those screens
+3. Verify there is no overflow
+
+* Footer
+1. Enter a correct email address in the text field and click the submit button
+2. Enter an incorrect email address in the text field and verify this is validated when the submit button is clicked
+3. Hover over the social media buttons and verify that they behave as expected.
+
 
 
 ### Testing protocol for the entire site
 
+* Header
+1. Verify that the header is identical on every page.
+
+* Main content
+
+* Footer
+1. Verify that the footer is identical on every page.
+
+* Misc
+1. Verify that the favicon has loaded.
+2. 
 
 ## Deployment
 
@@ -112,19 +133,18 @@ To Inspect which fonts are used where on various websites: Chrome Extension ‘W
 
 ### Images from Google Images - These are not used with permission. This is a student project, for educational purposes only.
 
-https://static.thenounproject.com/png/754157-200.png
-http://www.athleta.net/wp-content/uploads/2016/01/Get-Outdoors_EJ-Drevno-Your-Mindful-Child.jpg
-http://www.athleta.net/wp-content/uploads/2016/01/Unplugging-_EJ-Drevno-Your-Mindful-Child-768x512.jpg
-http://www.athleta.net/wp-content/uploads/2016/01/Notice-the-Small-Things-1_EJ-Drevno-768x512.jpg
-https://cms-tc.pbskids.org/parents/expert-tips-and-advice/tips-for-helping-your-child-focus-and-concentrate-hero.jpg?mtime=20181008032811
-https://img1.wsimg.com/isteam/ip/beff053d-5e00-41d8-b149-a7dc4d96d52b/6ffbc48c-0f9b-48a8-bf2a-7614280c07f1.jpg/:/rs=w:1280
-https://eileenburns.co.uk/wp-content/uploads/2018/02/mindfulness-for-children.png
-https://i0.wp.com/www.michaelswerdloff.com/wp-content/uploads/2014/07/MEDITATION-FOR-KIDS.jpg?fit=1536%2C1024&ssl=1
-https://cms-tc.pbskids.org/parents/expert-tips-and-advice/pressing-pause-how-mindfulness-helps-kids-hero.jpg?mtime=20181008031829
+* https://static.thenounproject.com/png/754157-200.png
+* http://www.athleta.net/wp-content/uploads/2016/01/Get-Outdoors_EJ-Drevno-Your-Mindful-Child.jpg
+* http://www.athleta.net/wp-content/uploads/2016/01/Unplugging-_EJ-Drevno-Your-Mindful-Child-768x512.jpg
+* http://www.athleta.net/wp-content/uploads/2016/01/Notice-the-Small-Things-1_EJ-Drevno-768x512.jpg
+* https://cms-tc.pbskids.org/parents/expert-tips-and-advice/tips-for-helping-your-child-focus-and-concentrate-hero.jpg?mtime=20181008032811
+* https://img1.wsimg.com/isteam/ip/beff053d-5e00-41d8-b149-a7dc4d96d52b/6ffbc48c-0f9b-48a8-bf2a-7614280c07f1.jpg/:/rs=w:1280
+* https://eileenburns.co.uk/wp-content/uploads/2018/02/mindfulness-for-children.png
+* https://i0.wp.com/www.michaelswerdloff.com/wp-content/uploads/2014/07/MEDITATION-FOR-KIDS.jpg?fit=1536%2C1024&ssl=1
+* https://cms-tc.pbskids.org/parents/expert-tips-and-advice/pressing-pause-how-mindfulness-helps-kids-hero.jpg?mtime=20181008031829
+* Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
 
-<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-
-##Sites used for quotations and research and downloadable pdf
+## Sites used for quotations and research and downloadable pdf
 1. https://childmind.org/article/the-art-and-science-of-mindfulness/
 2. https://parentswithconfidence.com/mindfulness-with-kids/
 3. https://mindfulnessinschools.org/wp-content/uploads/2013/02/MiSP-Research-Summary-2012.pdf
