@@ -172,7 +172,7 @@ a:hover.navbar-brand, a:hover.nav-link {
     position: relative;
 }
 
-.container-large-top::after {
+.container-large-top:after {
     /*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/ */
     /* Added to create translucent background beneath opaque text */
     /*Edited the above to add background position, repeat and size.*/
@@ -195,6 +195,10 @@ a:hover.navbar-brand, a:hover.nav-link {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.container-first-section-experience {
     position: relative;
 }
 
@@ -298,11 +302,9 @@ padding-bottom: 75px;
     background-color: lightcyan;
 }
 
-
-
-
 .footer-item {
-    display: inline;
+    display: inline-block;
+    width: 50%;
 }
 
 
@@ -357,8 +359,6 @@ padding-bottom: 75px;
 }
 
 @media only screen and (min-width: 992px) {
-
-
 
 
 .nav-link {
