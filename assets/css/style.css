@@ -1,4 +1,5 @@
 /*--------------- Fonts and Colours */
+
 /* Text shadows from https://html-css-js.com/css/generator/text-shadow/ */
 
 body {
@@ -23,10 +24,11 @@ a:hover {
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    text-shadow: 2px 2px 2px #708781; 
+    text-shadow: 2px 2px 2px #708781;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     text-shadow: 1px 1px 2px #708781;
@@ -38,7 +40,8 @@ h3 {
 }
 
 .heading--5em {
-    font-size: 2em; /*Increases to 5em on lg*/
+    font-size: 2em;
+    /*Increases to 5em on lg*/
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -47,23 +50,34 @@ h3 {
     color: #fff;
 }
 
-a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
+a.navbar-brand,
+.navbar-light,
+.navbar-nav,
+.nav-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     letter-spacing: 1.5px;
-    color: #fff !important; /* !important needed to override Bootstrap*/
-    text-shadow: 2px 2px 2px #708781; 
+    color: #fff !important;
+    /* !important needed to override Bootstrap*/
+    text-shadow: 2px 2px 2px #708781;
 }
 
-a.navbar-brand, a:link.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand, a:hover.nav-link, a:active.nav-link {
+a.navbar-brand,
+a:link.navbar-brand,
+a:hover.navbar-brand,
+a:active.navbar-brand,
+a:hover.nav-link,
+a:active.nav-link {
     transition: color 1.5s ease-in-out;
     -moz-transition: color 1.5s ease-in-out;
     -webkit-transition: color 1.5s ease-in-out;
     -o-transition: color 1.5s ease-in-out;
 }
 
-a:hover.navbar-brand, a:hover.nav-link {
-    color: #d8fce6 !important; /* !important needed to override Bootstrap*/
+a:hover.navbar-brand,
+a:hover.nav-link {
+    color: #d8fce6 !important;
+    /* !important needed to override Bootstrap*/
 }
 
 
@@ -112,28 +126,29 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 /*Next block of code taken from https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
-#custom-toggler { 
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+#custom-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-light {
-    background-color: rgba(112, 135, 129, 0.9) !important; /* !important needed to override Bootstrap*/
+    background-color: rgba(112, 135, 129, 0.9) !important;
+    /* !important needed to override Bootstrap*/
 }
 
 .nav-item {
     background-color: rgba(112, 135, 129, 0.8) !important;
-    /*background-image: linear-gradient(to right, rgba(112,135,129,0) 25%, rgba(112,135,129,0.9) 35%,rgba(112,135,129,0.9) 65%, rgba(112,135,129,0) 75%) !important;*/
-    
 }
 
-.btn-success:focus, .btn-success:active {
+.btn-success:focus,
+.btn-success:active {
     border-color: #fff;
-     outline: 0;
+    outline: 0;
 }
 
 button.navbar-toggler:focus {
     border-color: #fff;
-     outline: 0;
+    outline: 0;
 }
 
 
@@ -188,18 +203,18 @@ button.navbar-toggler:focus {
 }
 
 .btn-outline-success:focus {
-    box-shadow: 0 0 0 0.2rem rgba(252,252,252,.5);
+    box-shadow: 0 0 0 0.2rem rgba(252, 252, 252, .5);
     border-color: #fff;
 }
 
 .btn-success:focus {
-    box-shadow: 0 0 0 0.2rem rgba(252,252,252,0);
+    box-shadow: 0 0 0 0.2rem rgba(252, 252, 252, 0);
     border-color: #fff;
 }
 
 .btn-success:active {
     background-color: rgba(216, 252, 320, 0);
-    box-shadow: 0 0 0 0.2rem rgba(252,252,252,0);
+    box-shadow: 0 0 0 0.2rem rgba(252, 252, 252, 0);
     border-color: #fff;
     outline: 0px;
 }
@@ -249,18 +264,18 @@ button.navbar-toggler:focus {
     /*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/ */
     /* Added to create translucent background beneath opaque text */
     /*Edited the above to add background position, repeat and size.*/
-  content: "";
-  background: url(../images/dandelion.png);
-  opacity: 0.7;
-     background-position: center;
+    content: "";
+    background: url(../images/dandelion.png);
+    opacity: 0.7;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
 }
 
 .container-first-section {
@@ -310,7 +325,6 @@ button.navbar-toggler:focus {
     position: relative;
 }
 
-
 .container-second-section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -320,8 +334,6 @@ button.navbar-toggler:focus {
     background-size: cover;
     position: relative;
 }
-
-
 
 .container-third-section {
     padding-top: 50px;
@@ -336,7 +348,6 @@ button.navbar-toggler:focus {
 .container-footer {
     padding-top: 30px;
     padding-bottom: 30px;
-    
 }
 
 .container-wide {
@@ -344,53 +355,49 @@ button.navbar-toggler:focus {
     padding-right: 50px;
 }
 
-
-
-
 .container-callout-light {
     background-color: aqua;
 }
 
 .container-callout-dark {
-        background-color: #335544;
+    background-color: #335544;
 }
 
 .container--translucent {
-        background-color: rgba(112,135,129,0.9) ;
+    background-color: rgba(112, 135, 129, 0.9);
 
 }
 
 .container--translucentrounded {
-        background-color: rgba(112,135,129,0.9) ;
-        border-radius: 25px;
+    background-color: rgba(112, 135, 129, 0.9);
+    border-radius: 25px;
 
 }
 
-
 .container--translucentgradientleft {
-        background-color: rgba(112,135,129,0.7) ;
-border-radius: 25px;
-    
+    background-color: rgba(112, 135, 129, 0.7);
+    border-radius: 25px;
+
 }
 
 .container--translucentgradientright {
-        background-color: rgba(112,135,129,0.7) ;
-border-radius: 25px;
-    
+    background-color: rgba(112, 135, 129, 0.7);
+    border-radius: 25px;
+
 }
 
 
 /*--------------- Content Spacing Controls */
 
 .container--topbottom20 {
-padding-top: 20px;
-padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container--topbottom40 {
-padding-top: 40px;
-padding-bottom: 40px;
-margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
 }
 
 .videosize {
@@ -398,22 +405,22 @@ margin-top: 40px;
 }
 
 .container--topbottom150 {
-padding-top: 150px;
-padding-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .container--padding300--bottom-sm-middle-md {
-padding-top: 300px;
-padding-bottom: 0px;
+    padding-top: 300px;
+    padding-bottom: 0px;
 }
 
 .container--topbottom75 {
-padding-top: 75px;
-padding-bottom: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .container--top300 {
-padding-top: 300px;
+    padding-top: 300px;
 }
 
 /*--------------- Content Boxes */
@@ -431,9 +438,7 @@ padding-top: 300px;
 }
 
 
-
 /*--------------- Forms */
-
 
 .input--text {
     border-radius: 25px;
@@ -441,18 +446,18 @@ padding-top: 300px;
 }
 
 .input--width {
-    width:100%;
+    width: 100%;
 }
 
 
 /*--------------- Media Queries */
 
 @media only screen and (min-width: 768px) {
-    
+
     .heading--5em {
-    font-size: 3em;
-}
-    
+        font-size: 3em;
+    }
+
     .nav-padding-lg {
         padding-left: 5px;
         padding-right: 5px;
@@ -462,78 +467,72 @@ padding-top: 300px;
         text-align: left;
     }
 
-.container-large-top {
-    padding-top: 200px;
-    padding-bottom: 430px;
-}
+    .container-large-top {
+        padding-top: 200px;
+        padding-bottom: 430px;
+    }
 
-.container--padding300--bottom-sm-middle-md {
-padding-top: 150px;
-padding-bottom: 150px;
+    .container--padding300--bottom-sm-middle-md {
+        padding-top: 150px;
+        padding-bottom: 150px;
 
-}
+    }
 
-.container-second-section {
-    padding-top: 250px;
-    padding-bottom: 250px;
-}
+    .container-second-section {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
 
-.container-third-section {
-    padding-top: 250px;
-    padding-bottom: 250px;
-}
-    
-.footer-item {
-    display: inline-block;
-    width: 40%;
-    margin-right: 25px;
-}
+    .container-third-section {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
 
-.container--translucentgradientleft {
-    background-color: rgba(112,135,129,0);
-    background-image: linear-gradient(to right, rgba(112,135,129,0) 0%, rgba(112,135,129,0) 45%,rgba(112,135,129,0.7) 60%, rgba(112,135,129,0.7) 100%) !important;
+    .footer-item {
+        display: inline-block;
+        width: 40%;
+        margin-right: 25px;
+    }
 
-border-radius: 25px;
-    
-}
+    .container--translucentgradientleft {
+        background-color: rgba(112, 135, 129, 0);
+        background-image: linear-gradient(to right, rgba(112, 135, 129, 0) 0%, rgba(112, 135, 129, 0) 45%, rgba(112, 135, 129, 0.7) 60%, rgba(112, 135, 129, 0.7) 100%) !important;
+        border-radius: 25px;
 
-.container--translucentgradientright {
-    background-color: rgba(112,135,129,0);
-    background-image: linear-gradient(to left, rgba(112,135,129,0) 0%, rgba(112,135,129,0) 45%,rgba(112,135,129,0.7) 60%, rgba(112,135,129,0.7) 100%) !important;
+    }
 
-border-radius: 25px;
-    
-}
-
-
-
+    .container--translucentgradientright {
+        background-color: rgba(112, 135, 129, 0);
+        background-image: linear-gradient(to left, rgba(112, 135, 129, 0) 0%, rgba(112, 135, 129, 0) 45%, rgba(112, 135, 129, 0.7) 60%, rgba(112, 135, 129, 0.7) 100%) !important;
+        border-radius: 25px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
 
-.heading--5em {
-    font-size: 3em;
-}
+    .heading--5em {
+        font-size: 3em;
+    }
 
-.heading--topspace {
-    margin-top: 60px;
-}
+    .heading--topspace {
+        margin-top: 60px;
+    }
 
-.nav-link {
-    text-align: right;
-}
+    .nav-link {
+        text-align: right;
+    }
 
-.nav-item, .nav--darkgreen {
-    background-color: rgba(216, 252, 320, 0.0) !important;
-    background-image: none !important;
-}
+    .nav-item,
+    .nav--darkgreen {
+        background-color: rgba(216, 252, 320, 0.0) !important;
+        background-image: none !important;
+    }
 
-.nav--active {
-    /*background-color: rgba(216, 252, 320, 0.15) !important;*/
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    border-bottom-color: rgba(255, 255, 255, 0.4 );
-}
+    .nav--active {
+        /*background-color: rgba(216, 252, 320, 0.15) !important;*/
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+        border-bottom-color: rgba(255, 255, 255, 0.4);
+    }
 
 }
-
