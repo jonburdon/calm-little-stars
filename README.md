@@ -6,8 +6,8 @@
 ## Project Overview
 
 ### Business Goals
-Increase customer subscriber numbers
-Develop business reputation - establish expertise and trust
+1. Increase customer subscriber numbers
+2. Develop business reputation - establish expertise and trust
 
 ### User Needs
 - Understand benefits of mindfulness
@@ -21,21 +21,21 @@ Develop business reputation - establish expertise and trust
 
 
 ### User Stories
-- User 1 - Customer who made a decision
---As a user, I want to sign up so that I am on the waiting list
-- User 2 - Parent of child, potential customer
---As a user, I want to find out the benefits of mindulness for children so that I can make a decision
---As a user, I want to feel confident that mindfulness is safe and also works so that I can make a decision
---As a user, I want to find out about the teacher, so I am convinced they are an expert I can trust
---As a user, I want to find out when classes happen so that I can make a decision
---As a user, I want to find out where classes happen so that I can plan my journey easily
---As a user, I want to find out how much classes cost so that I can decide if I can afford it
---As a user, I want to find out how to pay so that I can decide whether to pay in advance or on the day
---I want to ask a question by email about mindfulness for kids so that I can decide whether this is for me
-- User 3 - Loyal customer, happy to share or refer business
---As a user, I want to share information with my family and friends so that they can bring their children along too
-- User 4 - Child
---I want to know if the classes are fun and exciting so that I can make a decision
+- User 1: Customer who made a decision
+-- As a user, I want to sign up so that I am on the waiting list
+- User 2: Parent of child, potential customer
+-- As a user, I want to find out the benefits of mindulness for children so that I can make a decision
+-- As a user, I want to feel confident that mindfulness is safe and also works so that I can make a decision
+-- As a user, I want to find out about the teacher, so I am convinced they are an expert I can trust
+-- As a user, I want to find out when classes happen so that I can make a decision
+-- As a user, I want to find out where classes happen so that I can plan my journey easily
+-- As a user, I want to find out how much classes cost so that I can decide if I can afford it
+-- As a user, I want to find out how to pay so that I can decide whether to pay in advance or on the day
+-- I want to ask a question by email about mindfulness for kids so that I can decide whether this is for me
+- User 3: Loyal customer, happy to share or refer business
+-- As a user, I want to share information with my family and friends so that they can bring their children along too
+- User 4: Child
+-- I want to know if the classes are fun and exciting so that I can make a decision
 
 
 

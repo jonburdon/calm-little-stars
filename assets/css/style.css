@@ -13,12 +13,16 @@ h1 {
 h2, h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    text-shadow: 1px 1px 2px #708781; 
+    text-shadow: 1px 1px 2px #708781;
 }
 
 h3 {
     padding-top: 5px;
 
+}
+
+.heading--5em {
+    font-size: 5em;
 }
 
 a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
