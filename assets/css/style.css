@@ -222,11 +222,18 @@ button.navbar-toggler:focus {
     font-size: 3em;
 }
 
+.iconsizingsm {
+    font-size: 2em;
+}
+
 /*--------------- Lists */
 
 .list-group-item {
     background-color: inherit;
     margin-top: 15px;
+    border-color: white;
+    border-radius: 5px;
+    /*height: 50px;*/
 }
 
 /*--------------- Containers */
@@ -257,6 +264,14 @@ button.navbar-toggler:focus {
 
 .container-first-section {
     background: url('../images/discussion.jpg') no-repeat bottom right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container-first-section-coach {
+    background: url('../images/yourcoach.jpg') no-repeat bottom right;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,12 +453,6 @@ padding-top: 300px;
     .heading--5em {
     font-size: 3em;
 }
-
-.input--width {
-    width:60%;
-    text-align: center;
-}
-
     
     .nav-padding-lg {
         padding-left: 5px;
