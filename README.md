@@ -78,7 +78,7 @@ Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fi
 
 The following testing protocols were followed for each page on desktop, mobile and tablet devices.
 
-* Navigation Bar
+* *Navigation Bar*
 1. Verify that each link is correctly hyperlinked to the appropriate page. During testing, the brand text was found to be incorrectly linked.
 2. Verify that the menu item visited is signified as the active page.
 3. Hover over and off the button in the menu to ensure hover behaviour is as expected.
@@ -88,17 +88,17 @@ The following testing protocols were followed for each page on desktop, mobile a
 7. Hover over the brand text and verify the hover behaviour is as expected.
 8. Hover over each link and verify that the hover behaviour is as expected.
 
-* Page content
+* *Page content*
 1. Resize the width of the browser and verify that the content resizes for different screen sizes as expected.
-2. Verify that any content that should be hidden on smaller screen sizes is hidden on those screens
-3. Verify there is no overflow
+2. Verify that any content that should be hidden on smaller screen sizes is hidden on those screens.
+3. Verify there is no overflow.
+4. Verify any video is responsive and plays when clicked.
+5. Verify any links to downloads or external sites open in a new tab.
 
-* Footer
-1. Enter a correct email address in the text field and click the submit button
-2. Enter an incorrect email address in the text field and verify this is validated when the submit button is clicked
-3. Hover over the social media buttons and verify that they behave as expected.
-
-
+* *Footer*
+1. Enter a correct email address in the text field and click the submit button.
+2. Enter an incorrect email address in the text field and verify this is validated when the submit button is clicked.
+3. Hover over the social media buttons and verify that they behave as expected. During testing, it was found that these buttons were not linked to social media profiles.
 
 ### Testing protocol for the entire site
 
@@ -112,7 +112,7 @@ The following testing protocols were followed for each page on desktop, mobile a
 
 * Misc
 1. Verify that the favicon has loaded.
-2. 
+
 
 ## Deployment
 
