@@ -50,7 +50,16 @@ The primary goal of the site is to encourage users to subscribe / book classes.
 
 Link to UX Planning: https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g
 
+
+
+
 Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fiF3M7JG
+* [Initial sketches](https://drive.google.com/open?id=1coe_ZwLkSQJF4udvgkUZaQS-Zs4w-6_p)
+* [Alternative sketches](https://drive.google.com/open?id=1UmAyMfEXZppU2sjFOegT2VOHD-BDsjBE)
+* [pdf wireframe](https://drive.google.com/open?id=1hJNrHLxcTs5_H9N-Z6RH-KxQc3aVoV7I)
+
+
+
 
 ## What could be implemented in future?
 1. Photography - This would ideally all be from the same shoot
