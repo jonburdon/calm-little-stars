@@ -5,6 +5,21 @@ body {
     color: #fff;
     font-size: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 1.5s ease-in-out;
+    -moz-transition: color 1.5s ease-in-out;
+    -webkit-transition: color 1.5s ease-in-out;
+    -o-transition: color 1.5s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #d8fce6;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -26,6 +41,10 @@ h3 {
     font-size: 2em; /*Increases to 5em on lg*/
 }
 
+.quote {
+    color: #fff;
+}
+
 a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -35,7 +54,6 @@ a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
 }
 
 a.navbar-brand, a:link.navbar-brand, a:hover.navbar-brand, a:active.navbar-brand, a:hover.nav-link, a:active.nav-link {
-    /*font-weight: 100;*/
     transition: color 1.5s ease-in-out;
     -moz-transition: color 1.5s ease-in-out;
     -webkit-transition: color 1.5s ease-in-out;
@@ -191,6 +209,11 @@ button.navbar-toggler:focus {
 
 .btn--margintop30 {
     margin-top: 30px;
+}
+
+.downloadicon {
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 /*--------------- Containers */
