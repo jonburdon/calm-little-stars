@@ -226,10 +226,10 @@ button.navbar-toggler:focus {
 
 
 .container-third-section-benefits {
-    background: url('../images/discussion.jpg') no-repeat bottom right;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background: url('../images/discussion.jpg') no-repeat bottom right;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
     position: relative;
 }
 
@@ -289,17 +289,21 @@ button.navbar-toggler:focus {
 
 }
 
+.container--translucentrounded {
+        background-color: rgba(112,135,129,0.9) ;
+        border-radius: 25px;
+
+}
+
 
 .container--translucentgradientleft {
         background-color: rgba(112,135,129,0.7) ;
-
 border-radius: 25px;
     
 }
 
 .container--translucentgradientright {
         background-color: rgba(112,135,129,0.7) ;
-
 border-radius: 25px;
     
 }
@@ -311,6 +315,10 @@ border-radius: 25px;
 padding-top: 20px;
 padding-bottom: 20px;
 
+}
+
+.videosize {
+    width: 70%;
 }
 
 .container--topbottom150 {
