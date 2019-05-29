@@ -23,7 +23,7 @@ h3 {
 }
 
 .heading--5em {
-    font-size: 5em;
+    font-size: 2em; /*Increases to 5em on lg*/
 }
 
 a.navbar-brand, .navbar-light, .navbar-nav, .nav-link {
@@ -339,6 +339,12 @@ padding-top: 300px;
 /*--------------- Media Queries */
 
 @media only screen and (min-width: 768px) {
+    
+    .heading--5em {
+    font-size: 3em;
+}
+
+    
     .nav-padding-lg {
         padding-left: 5px;
         padding-right: 5px;
@@ -387,10 +393,14 @@ border-radius: 25px;
 }
 
 
+
 }
 
 @media only screen and (min-width: 992px) {
 
+.heading--5em {
+    font-size: 5em;
+}
 
 .nav-link {
     text-align: right;
