@@ -220,6 +220,7 @@ button.navbar-toggler:focus {
 
 .iconsizing {
     font-size: 3em;
+    padding-bottom: 15px;
 }
 
 .iconsizingsm {
@@ -384,7 +385,12 @@ border-radius: 25px;
 .container--topbottom20 {
 padding-top: 20px;
 padding-bottom: 20px;
+}
 
+.container--topbottom40 {
+padding-top: 40px;
+padding-bottom: 40px;
+margin-top: 40px;
 }
 
 .videosize {
@@ -394,19 +400,16 @@ padding-bottom: 20px;
 .container--topbottom150 {
 padding-top: 150px;
 padding-bottom: 150px;
-
 }
 
 .container--padding300--bottom-sm-middle-md {
 padding-top: 300px;
 padding-bottom: 0px;
-
 }
 
 .container--topbottom75 {
 padding-top: 75px;
 padding-bottom: 75px;
-
 }
 
 .container--top300 {
@@ -426,10 +429,6 @@ padding-top: 300px;
     width: 100%;
     margin-bottom: 45px;
 }
-
-
-/*--------------- Social */
-
 
 
 
