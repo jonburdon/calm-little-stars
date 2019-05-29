@@ -45,9 +45,6 @@ The primary goal of the site is to encourage users to subscribe / book classes.
 -- I want to know if the classes are fun and exciting so that I can make a decision
 
 
-
-
-
 [User Stories are detailed on the User Stories tab of this project planning.](https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g)
 ---
 
@@ -57,6 +54,8 @@ Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fi
 
 What could be implemented in future?
 1. Photography - This would ideally all be from the same shoot
+2. Use javascript to ensure images are not loaded at all on mobile view
+3. Audit site for accessibility to screen readers and implement improvements
 
 ### CSS code snippets used
 https://css-tricks.com/snippets/css/transparent-background-images/
