@@ -254,21 +254,15 @@ a:hover.navbar-brand, a:hover.nav-link {
 
 
 .container--translucentgradientleft {
-        /*background-color: rgba(112,135,129,0.7) ;*/
-    background-image: linear-gradient(to right, rgba(112,135,129,0) 0%, rgba(112,135,129,0) 45%,rgba(112,135,129,0.7) 60%, rgba(112,135,129,0.7) 100%) !important;
-/*border-style: solid;*/
-/*border-width: 1px;*/
-/*border-color: red;*/
+        background-color: rgba(112,135,129,0.7) ;
+
 border-radius: 25px;
     
 }
 
 .container--translucentgradientright {
-        /*background-color: rgba(112,135,129,0.7) ;*/
-    background-image: linear-gradient(to left, rgba(112,135,129,0) 0%, rgba(112,135,129,0) 45%,rgba(112,135,129,0.7) 60%, rgba(112,135,129,0.7) 100%) !important;
-/*border-style: solid;*/
-/*border-width: 1px;*/
-/*border-color: red;*/
+        background-color: rgba(112,135,129,0.7) ;
+
 border-radius: 25px;
     
 }
@@ -361,6 +355,23 @@ padding-bottom: 75px;
     width: 40%;
     margin-right: 25px;
 }
+
+.container--translucentgradientleft {
+    background-color: rgba(112,135,129,0);
+    background-image: linear-gradient(to right, rgba(112,135,129,0) 0%, rgba(112,135,129,0) 45%,rgba(112,135,129,0.7) 60%, rgba(112,135,129,0.7) 100%) !important;
+
+border-radius: 25px;
+    
+}
+
+.container--translucentgradientright {
+    background-color: rgba(112,135,129,0);
+    background-image: linear-gradient(to left, rgba(112,135,129,0) 0%, rgba(112,135,129,0) 45%,rgba(112,135,129,0.7) 60%, rgba(112,135,129,0.7) 100%) !important;
+
+border-radius: 25px;
+    
+}
+
 
 }
 
