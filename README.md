@@ -3,6 +3,13 @@
 
 [View Site on GitHub Pages](https://jonburdon.github.io/calm-little-stars/)
 ---
+A website to profile a business offering mindfulness classes for children. The site features a consistent presentation of key information
+ related to mindfulness for children as well as video and audio so that activities can be experienced. Call to action buttons are visible 
+ consistently, with the aim of ensuring people can easily sign up to classes when they are ready.
+ An important point to note is that whilst most B2C sites experience impulse buying, use research indicates that when purchasing services for children's mental and
+ spiritual health, many people require trust and reputation to be established before making a purchase.
+The primary goal of the site is to encourage users to subscribe / book classes.
+---
 ## Project Overview
 
 ### Business Goals
