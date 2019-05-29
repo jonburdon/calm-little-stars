@@ -86,3 +86,7 @@ https://eileenburns.co.uk/wp-content/uploads/2018/02/mindfulness-for-children.pn
 https://i0.wp.com/www.michaelswerdloff.com/wp-content/uploads/2014/07/MEDITATION-FOR-KIDS.jpg?fit=1536%2C1024&ssl=1
 https://cms-tc.pbskids.org/parents/expert-tips-and-advice/pressing-pause-how-mindfulness-helps-kids-hero.jpg?mtime=20181008031829
 
+
+##Sites used for quotations and research
+1. https://childmind.org/article/the-art-and-science-of-mindfulness/
+2. 2. https://parentswithconfidence.com/mindfulness-with-kids/
