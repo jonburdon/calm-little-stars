@@ -101,11 +101,20 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 .nav-item {
-    /*background-color: rgba(112, 135, 129, 0.8) !important;*/
-    background-image: linear-gradient(to right, rgba(112,135,129,0) 25%, rgba(112,135,129,0.9) 35%,rgba(112,135,129,0.9) 65%, rgba(112,135,129,0) 75%) !important;
+    background-color: rgba(112, 135, 129, 0.8) !important;
+    /*background-image: linear-gradient(to right, rgba(112,135,129,0) 25%, rgba(112,135,129,0.9) 35%,rgba(112,135,129,0.9) 65%, rgba(112,135,129,0) 75%) !important;*/
     
 }
 
+/*.navbar-toggler:focus, .collapsed:focus {*/
+/*    box-shadow: 0 0 0 0.2rem rgba(252,252,252,.5);*/
+/*    border-color: #fff;*/
+/*}*/
+
+.button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(252,252,252,.5);
+    border-color: #fff;
+}
 
 /*--------------- Headings */
 
@@ -122,6 +131,7 @@ a:hover.navbar-brand, a:hover.nav-link {
     background-color: rgba(216, 252, 320, 0.4);
     border-radius: 25px;
     padding-right: 15px;
+    border-color: transparent;
     transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
     -moz-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
     -webkit-transition: background-color 1.5s ease-in-out, border-color 1.5s ease-in-out;
@@ -153,6 +163,10 @@ a:hover.navbar-brand, a:hover.nav-link {
     border-color: transparent;
 }
 
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(252,252,252,.5);
+    border-color: #fff;
+}
 
 
 #btn--footer {
@@ -248,7 +262,7 @@ a:hover.navbar-brand, a:hover.nav-link {
 }
 
 .container--translucent {
-        background-color: rgba(112,135,129,0.7) ;
+        background-color: rgba(112,135,129,0.9) ;
 
 }
 
@@ -339,10 +353,6 @@ padding-top: 300px;
     padding-bottom: 430px;
 }
 
-/*.container-first-section {*/
-/*    padding-top: 250px;*/
-/*    padding-bottom: 250px;*/
-/*}*/
 
 .container-second-section {
     padding-top: 250px;
