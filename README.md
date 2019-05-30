@@ -85,6 +85,8 @@ buttons which link to the Facebook and Twitter (these would be linked to busines
 Hero images are used throughout the site to grab attention and promote a positive emotional response, and also to communicate the nature of the service offered
 (mindfulness classes for children.)
 
+A calm colour scheme is used throughout the site. A colour scheme was generated from the landing page hero image and then tints and tones were selected for the final colour scheme. Fonts were selected with a professional feel rather than childlike fonts, which were considered.
+
 
 ### *Home Page*
 
