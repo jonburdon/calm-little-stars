@@ -288,7 +288,7 @@ button.navbar-toggler:focus {
 
 .container-first-section-coach {
     background: url('../images/yourcoach.jpg') no-repeat bottom right;
-    background-position: center;
+    background-position: 30% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -318,8 +318,6 @@ button.navbar-toggler:focus {
     /*background-size: cover;*/
     position: relative;
 }
-
-
 
 .container-first-section-experience {
     position: relative;
@@ -427,6 +425,11 @@ button.navbar-toggler:focus {
 .container--top300 {
     padding-top: 300px;
 }
+
+.container--top400 {
+    padding-top: 400px;
+}
+
 
 /*--------------- Content Boxes */
 
