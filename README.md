@@ -42,7 +42,7 @@ The primary goal of the site is to encourage users to subscribe / book classes.
 - I want to ask a question by email about mindfulness for kids so that I can decide whether this is for me
 3. User 3: Loyal customer, happy to share or refer business
 - As a user, I want to share information with my family and friends so that they can bring their children along too
-4. User 4: Child
+4. User 4: Child, potential attendee of mindfulness classes
 - I want to know if the classes are fun and exciting so that I can make a decision
 
 [User Stories are detailed on the User Stories tab of this project planning.](https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g)
@@ -58,7 +58,10 @@ Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fi
 ## Features
 
 Each page features an identical navbar. The bar is fully responsive, collapsing on medium
-screens and below. It includes a call to action button which is always visible.
+screens and below. It includes a call to action button which is always visible. The call to action button links to an id property on the Classes page.
+This has the affect of displaying the contact form which is the primary goal whilst still giving the user a peek at the key information about classes 
+which is also a key business aim.
+
 Each active page is underlined in the navbar to create a reassuring navigation experience for the user.
 Each page has an identical footer which includes the opportunity to sign up for a newsletter, and social media 
 buttons which link to the Facebook and Twitter (these would be linked to business social media profiles if the site was to be deployed.)
@@ -66,17 +69,22 @@ Hero images are used throughout the site to grab attention and promote a positiv
 (mindfulness classes for children.)
 
 
-*Home Page*
+### *Home Page*
+
+
 The Home Page features a Hero Image beneath heading text and a call to action button. Content peeking is used to indicate there is more to read.
 Key information to address user stories is then presented in a way which draws the reader down the page. Each section of compelling copy is accompanied
 by a button, to allow the reader to read more. Copy is presented bellow, to the right or the left of the appropriate image on larger screens to create interest
 and also establish and reinforce the visual concept of the rule of thirds which is established in the header area, and is used throughout the site. 
+
+
 On small screen sizes, the compelling copy appears over the background images in a translucent box, still allowing the user to read it whilst introducing the ideally
 of the calming activities which the business offers. The 'Benefits of Mindfulness' compelling copy section is reduced to two sections of content on medium screens
 and then to one on small screens. This is to reduce visual clutter and minimise the amount of scrolling required on small screens. As each section of
 this copy has equal semantic value, reducing the quantity displayed does not detract from the user experience.
 
-*Benefits Page*
+### *Benefits Page*
+
 The page has a header and footer which are identical to the rest of the website, with a line beneath the active page in the header to provide reassurance
 and aid navigation.
 
@@ -86,7 +94,44 @@ have less reading ability than adults but are still have a significant user stor
 so video was used to engage this user. A plain background was introduced behind the video to reduce visual clutter and encourage the user to focus on the video.
 
 
-New Section
+### *Facts Page*
+
+The page has a header and footer which are identical to the rest of the website, with a line beneath the active page in the header to provide reassurance
+and aid navigation.
+
+The by now familiar rule of thirds is used again to develop familiarity and consistency. Once the compelling copy has been read, the download research link
+is introduced. This opens in a new tab so that the user does not leave then main site and is not forced to use the back button to return to the main page.
+The detailed research will further establish trust and reassurance for User 2, but to include this level of detail on the site itself would be offputting and go 
+go against the simplicity introduced on the Home Page and reflected throughout the site.
+
+
+### *Experience Page*
+
+The page has a header and footer which are identical to the rest of the website, with a line beneath the active page in the header to provide reassurance
+and aid navigation.
+
+The page showcases a video to allow User 4 to experience mindfulness. Minimal text is used on this page as
+the page is primarily for children, who read less and are very familiar with watching video. A plain background was introduced
+behind the video to reduce visual clutter and encourage the user (a child) to focus on the video without becoming distraced.
+
+
+### *Classes Page*
+
+The page has a header and footer which are identical to the rest of the website, with a line beneath the active page in the header to provide reassurance
+and aid navigation.
+
+The page starts with a hero image to elicit a positive emotional response. Information about classes is broken in to three sections to make it
+easier to digest. Icons are used to break up the text and make the layout more visually accessible. The rule of thirds is used once more to present the information
+ on larger screens.
+ 
+The contact form is displayed without a photo background to reduce distractions and encourage the user to stay put and complete the form.
+ The form includes a name, email address and message field along with a submit button. The text of the submit button displays the message 'Start Calming.'
+  This reinforces the requirements of the user stories - they want to know mindfulness works and does indeed establish calm.
+  
+This page includes an id property to direct visitors to the form whilst still using content peeking to display some information about classes above the form
+ when they visit this page.
+
+
 
 ## Technologies used
 * HTML and CSS programming languages
@@ -105,7 +150,8 @@ New Section
 - To invert colours of images and add transparency: https://www.online-image-editor.com/
 
 ## What could be implemented in future?
-1. [ ] Photography - This would ideally all be from the same shoot
+1. [ ] Photography - This would ideally all be from the same shoot, with a wider range of photos
+2. and more different images eg on the benefits and the facts pages. Images would also be more precise eg. to signify trust and reassurance.
 2. [ ] Use javascript to ensure images are not loaded at all on mobile view
 3. [ ] Audit site for accessibility to screen readers and implement improvements
 4. [ ] Add button in footer to navigate straight to top of website
@@ -114,6 +160,9 @@ New Section
 7. [ ] Add a video library of testimonials and short clips of sessions
 8. [ ] Add button to aid navigation from footer to top of index.html
 9. [ ] Add EU Cookie Warning and add Google Analytics pixel code to track visitors
+10. [ ] Improve the experience for User 3 by adding social share buttons so that compelling copy can be shared easily with friends.
+11. [ ] Add free mindfulness activities content either as video or as downloadable pdfs. This would further establish the expertise and reputation 
+of the business owner and also suggest generosity - a key component of an attitude of mindfulness.
 
 
 ## Testing
