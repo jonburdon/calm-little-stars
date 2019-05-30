@@ -58,13 +58,33 @@ Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fi
 ## Features
 
 Each page features an identical navbar. The bar is fully responsive, collapsing on medium
-screens and below. It includes a call to action button which is always visible. 
+screens and below. It includes a call to action button which is always visible.
+Each active page is underlined in the navbar to create a reassuring navigation experience for the user.
 Each page has an identical footer which includes the opportunity to sign up for a newsletter, and social media 
 buttons which link to the Facebook and Twitter (these would be linked to business social media profiles if the site was to be deployed.)
+Hero images are used throughout the site to grab attention and promote a positive emotional response, and also to communicate the nature of the service offered
+(mindfulness classes for children.)
 
-New section
 
-New Section \s
+*Home Page*
+The Home Page features a Hero Image beneath heading text and a call to action button. Content peeking is used to indicate there is more to read.
+Key information to address user stories is then presented in a way which draws the reader down the page. Each section of compelling copy is accompanied
+by a button, to allow the reader to read more. Copy is presented bellow, to the right or the left of the appropriate image on larger screens to create interest
+and also establish and reinforce the visual concept of the rule of thirds which is established in the header area, and is used throughout the site. 
+On small screen sizes, the compelling copy appears over the background images in a translucent box, still allowing the user to read it whilst introducing the ideally
+of the calming activities which the business offers. The 'Benefits of Mindfulness' compelling copy section is reduced to two sections of content on medium screens
+and then to one on small screens. This is to reduce visual clutter and minimise the amount of scrolling required on small screens. As each section of
+this copy has equal semantic value, reducing the quantity displayed does not detract from the user experience.
+
+*Benefits Page*
+The page has a header and footer which are identical to the rest of the website, with a line beneath the active page in the header to provide reassurance
+and aid navigation.
+
+The compelling copy on this page follows the rule of thirds established on the Home Page. Hero Images are used to elicit a positive emotional response.
+The page is completed with a video to explain more and encourage the user to reduce bounce rate. The video would also be more accessible to children who might
+have less reading ability than adults but are still have a significant user story. Children spend a significant amount of time watching video online, and
+so video was used to engage this user. A plain background was introduced behind the video to reduce visual clutter and encourage the user to focus on the video.
+
 
 New Section
 
@@ -100,7 +120,7 @@ New Section
 
 ### Testing protocol for each page
 
-The following testing protocols were followed for each page on desktop, mobile and tablet devices.
+The following testing protocols were followed for each page on desktop, mobile, tablet and smart TV devices.
 
 * *Navigation Bar*
 1. Verify that each link is correctly hyperlinked to the appropriate page. During testing, the brand text was found to be incorrectly linked.
