@@ -38,7 +38,6 @@ h3 {
 
 h3 {
     padding-top: 5px;
-
 }
 
 .heading--5em {
@@ -119,6 +118,7 @@ a:hover.nav-link {
     border-color: #fff !important;
 }
 
+/*Adjust colour of custom toggler icon */
 /*Next block of code taken from https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
 #custom-toggler {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -158,6 +158,7 @@ button.navbar-toggler:focus {
 
 /*--------------- Buttons */
 
+/* Override Bootstrap btn-success styles */
 .btn-outline-success {
     background-color: rgba(216, 252, 320, 0.4);
     border-radius: 25px;
@@ -236,6 +237,7 @@ button.navbar-toggler:focus {
 
 /*--------------- Lists */
 
+/* Override Bootstrap list item styling to suit colour scheme but maintain box around list items */
 .list-group-item {
     background-color: inherit;
     margin-top: 15px;
@@ -252,6 +254,7 @@ button.navbar-toggler:focus {
     position: relative;
 }
 
+/* Add opacity to background without adding text opacity for the same container */
 .container-large-top:after {
     /*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/ */
     /* Added to create translucent background beneath opaque text */
@@ -278,6 +281,7 @@ button.navbar-toggler:focus {
     position: relative;
 }
 
+/* Image is positioned to zoom on to adult only on smaller screen sizes (child will not be visible) */
 .container-first-section-coach {
     background: url('../images/yourcoach.jpg') no-repeat bottom right;
     background-position: 30% 50%;
@@ -303,10 +307,6 @@ button.navbar-toggler:focus {
 }
 
 .container-third-section-benefits {
-    /*background: url('../images/discussion.jpg') no-repeat bottom right;*/
-    /*background-position: center;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
     position: relative;
 }
 
@@ -324,6 +324,7 @@ button.navbar-toggler:focus {
     position: relative;
 }
 
+/* Image is positioned to highlight the people in the */
 .container-third-section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -372,6 +373,7 @@ button.navbar-toggler:focus {
 }
 
 /*--------------- Content Spacing Controls */
+/* Spacing controls kept as reuseable as possible */
 
 .container--topbottom20 {
     padding-top: 20px;
@@ -393,7 +395,7 @@ button.navbar-toggler:focus {
     padding-bottom: 150px;
 }
 
-.container--padding300--bottom-sm-middle-md {
+.container--padding300--bottom-sm-middle-md { /*  Media Query used to adjust to centre alignment on md size and above*/
     padding-top: 300px;
     padding-bottom: 0px;
 }
@@ -444,12 +446,14 @@ button.navbar-toggler:focus {
         text-align: left;
     }
 
+/* Container padding adjusted for md size devices (default set small to ensure containers do not create too much scrolling and also look good on small screens) */
+
     .container-large-top {
         padding-top: 200px;
         padding-bottom: 430px;
     }
 
-    .container--padding300--bottom-sm-middle-md {
+    .container--padding300--bottom-sm-middle-md { /* move content to centre alignment over background on larger screens*/
         padding-top: 150px;
         padding-bottom: 150px;
     }
@@ -498,14 +502,7 @@ button.navbar-toggler:focus {
         text-align: right;
     }
 
-    .nav-item,
-    .nav--darkgreen {
-        background-color: rgba(216, 252, 320, 0.0) !important;
-        background-image: none !important;
-    }
-
     .nav--active {
-        /*background-color: rgba(216, 252, 320, 0.15) !important;*/
         border-bottom-style: solid;
         border-bottom-width: thin;
         border-bottom-color: rgba(255, 255, 255, 0.4);
@@ -513,9 +510,9 @@ button.navbar-toggler:focus {
 
 }
 
-
 @media only screen and (min-width: 1600px) {
 
+/*Use a larger, wider version of the header hero image to improve appearance on extra large screens*/
 .container-large-top:after {
     /*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/ */
     /* Added to create translucent background beneath opaque text */
@@ -534,6 +531,7 @@ button.navbar-toggler:focus {
     z-index: -1;
 }
 
+/* Adjust padding on extra large screen sizes to improve appearance of text in relation to focal point in image*/
 .container-large-top {
     padding-top: 180px;
     padding-bottom: 130px;
