@@ -11,6 +11,10 @@ A website to profile a business offering mindfulness classes for children. The s
   professional, informative whilst still being calm and soothing.
 The primary goal of the site is to encourage users to subscribe / book classes.
 
+---
+![The site is fully responsive](assets/images/testingdevices.gif)
+---
+
 ## Project Overview
 
 ### Business Goals
@@ -154,6 +158,8 @@ as a list along with icons to communicate visually with the user. A quote is inc
 * Popper.js was loaded by Bootstrap in order to implement the collapsable navbar
 
 ### Tools used for automation
+- To validate html https://validator.w3.org/
+- - To validate css https://jigsaw.w3.org/css-validator/
 - To convert hex codes to rgba: https://www.rapidtables.com/convert/color/hex-to-rgb.html
 - To create colour pallette from image: http://www.palettefx.com/
 - To find tints and tones of a specific colour: https://coolors.co/
