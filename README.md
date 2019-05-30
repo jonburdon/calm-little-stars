@@ -58,9 +58,9 @@ The primary goal of the site is to encourage users to subscribe / book classes.
 Link to UX Planning: https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g
 
 Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fiF3M7JG
-* [Initial sketches](https://drive.google.com/open?id=1coe_ZwLkSQJF4udvgkUZaQS-Zs4w-6_p)
-* [Alternative sketches](https://drive.google.com/open?id=1UmAyMfEXZppU2sjFOegT2VOHD-BDsjBE)
-* [pdf wireframe](https://drive.google.com/open?id=1hJNrHLxcTs5_H9N-Z6RH-KxQc3aVoV7I)
+* [Initial sketches](wireframes/initialsketches.jpg)
+* [Alternative sketches](wireframes/alternativesketches.jpg)
+* [pdf wireframe](Wireframe.pdf)
 
 ## Features
 
@@ -163,7 +163,7 @@ as a list along with icons to communicate visually with the user. A quote is inc
 
 ### Tools used for automation
 - To validate html https://validator.w3.org/
-- - To validate css https://jigsaw.w3.org/css-validator/
+- To validate css https://jigsaw.w3.org/css-validator/
 - To convert hex codes to rgba: https://www.rapidtables.com/convert/color/hex-to-rgb.html
 - To create colour pallette from image: http://www.palettefx.com/
 - To find tints and tones of a specific colour: https://coolors.co/
