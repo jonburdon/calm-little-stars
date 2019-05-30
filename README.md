@@ -72,7 +72,7 @@ Hero images are used throughout the site to grab attention and promote a positiv
 ### *Home Page*
 
 
-The Home Page features a Hero Image beneath heading text and a call to action button. Content peeking is used to indicate there is more to read.
+The Home Page features a hero image beneath heading text and a call to action button. Content peeking is used to indicate there is more to read.
 Key information to address user stories is then presented in a way which draws the reader down the page. Each section of compelling copy is accompanied
 by a button, to allow the reader to read more. Copy is presented bellow, to the right or the left of the appropriate image on larger screens to create interest
 and also establish and reinforce the visual concept of the rule of thirds which is established in the header area, and is used throughout the site. 
@@ -121,7 +121,7 @@ The page has a header and footer which are identical to the rest of the website,
 and aid navigation.
 
 The page starts with a hero image to elicit a positive emotional response. Information about classes is broken in to three sections to make it
-easier to digest. Icons are used to break up the text and make the layout more visually accessible. The rule of thirds is used once more to present the information
+easier to digest. Times of classes are displayed as a list for the same reason. Icons are used to break up the text and make the layout more visually accessible. The rule of thirds is used once more to present the information
  on larger screens.
  
 The contact form is displayed without a photo background to reduce distractions and encourage the user to stay put and complete the form.
@@ -131,6 +131,17 @@ The contact form is displayed without a photo background to reduce distractions 
 This page includes an id property to direct visitors to the form whilst still using content peeking to display some information about classes above the form
  when they visit this page.
 
+### *Classes Page*
+
+The page has a header and footer which are identical to the rest of the website, with a line beneath the active page in the header to provide reassurance
+and aid navigation.
+
+The page starts with a hero image to elicit a positive emotional response. This image shows the coach with a baby to establish trust and their suitability
+ as a person to work with children.
+ 
+The rule of thirds, established on the home page, is used once again to provide visual familiarity and consistency on larger screens. Qualifications are displayed 
+as a list along with icons to communicate visually with the user. A quote is included to remind the user that the coach is a real person, and someone who can
+ be trusted.
 
 
 ## Technologies used
@@ -208,6 +219,20 @@ The following testing protocols were followed for each page on desktop, mobile, 
 
 
 ## Deployment
+
+This site is hosted on GitHub pages, and deployed from the master branch (Repository -> Settings -> GitHub Pages -> Source -> Master Branch).
+The deployed site will update automatically upon new commits to the this branch. 
+In order for the site to deploy correctly on GitHub pages, the home page must be named index.html.
+
+
+*To run locally*, you should clone the repository directly into the IDE of your choice. 
+
+Paste the following into the terminal of your IDE. :tada:
+
+`git clone https://github.com/jonburdon/calm-little-stars.git`
+
+To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+
 
 ## Credits
 
