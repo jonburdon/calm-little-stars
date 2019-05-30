@@ -512,3 +512,25 @@ button.navbar-toggler:focus {
     }
 
 }
+
+
+@media only screen and (min-width: 1600px) {
+
+.container-large-top:after {
+    /*Pseudo element for bg opacity code used from https://css-tricks.com/snippets/css/transparent-background-images/ */
+    /* Added to create translucent background beneath opaque text */
+    /*Edited the above to add background position, repeat and size.*/
+    content: "";
+    background: url(../images/dandelion.png);
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+}

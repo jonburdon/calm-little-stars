@@ -55,12 +55,22 @@ The primary goal of the site is to encourage users to subscribe / book classes.
 [User Stories are detailed on the User Stories tab of this project planning.](https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g)
 ---
 
-Link to UX Planning: https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g
+## UX Planning
 
-Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fiF3M7JG
+Planning was completed using a spreadsheet, based in Google Drive. This can be accessed [here](https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g)
+
+## WireFrames:
+
+*View in this repository*
 * [Initial sketches](wireframes/initialsketches.jpg)
 * [Alternative sketches](wireframes/alternativesketches.jpg)
 * [pdf wireframe](Wireframe.pdf)
+
+*View on Google Drive*
+* [Google Drive Folder](https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fiF3M7JG)
+* [Initial sketches](https://drive.google.com/open?id=1coe_ZwLkSQJF4udvgkUZaQS-Zs4w-6_p)
+* [Alternative sketches](https://drive.google.com/open?id=1UmAyMfEXZppU2sjFOegT2VOHD-BDsjBE)
+* [pdf wireframe](https://drive.google.com/open?id=1hJNrHLxcTs5_H9N-Z6RH-KxQc3aVoV7I)
 
 ## Features
 
@@ -172,7 +182,7 @@ as a list along with icons to communicate visually with the user. A quote is inc
 - To create custom favicon https://www.favicon-generator.org/
 
 ## What could be implemented in future?
-1. [ ] Photography - This would ideally all be from the same shoot, with a wider range of photos and more different images eg on the benefits and the facts pages. Images would also be more precise eg. to signify trust and reassurance.
+1. [ ] Photography - This would ideally all be from the same shoot, with a wider range of photos and more different images eg on the benefits and the facts pages. Images would also be more precise eg. to signify trust and reassurance. Images would be larger (some images have become stretched eg payingattention.jpg).
 2. [ ] Use javascript to ensure images are not loaded at all on mobile view
 3. [ ] Audit site for accessibility to screen readers and implement improvements
 4. [ ] Add button in footer to navigate straight to top of website
