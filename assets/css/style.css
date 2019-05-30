@@ -533,4 +533,12 @@ button.navbar-toggler:focus {
     position: absolute;
     z-index: -1;
 }
+
+.container-large-top {
+    padding-top: 180px;
+    padding-bottom: 130px;
+    position: relative;
+    height: 95vh;
+}
+
 }

@@ -218,6 +218,8 @@ The following testing protocols were followed for each page on desktop, mobile, 
 3. Verify there is no overflow.
 4. Verify any video is responsive and plays when clicked.
 5. Verify any links to downloads or external sites open in a new tab.
+6. Verify that images cover the screen without interferring with text.
+During testing it was found that the hero image needed to be wider on extra large screens, so a separate image was loaded via a media query. The hero image was set to 95% viewport height for extra lareg screens.
 
 * *Footer*
 1. Enter a correct email address in the text field and click the submit button.
