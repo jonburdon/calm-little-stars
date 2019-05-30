@@ -220,18 +220,29 @@ The following testing protocols were followed for each page on desktop, mobile, 
 
 ## Deployment
 
-This site is hosted on GitHub pages, and deployed from the master branch (Repository -> Settings -> GitHub Pages -> Source -> Master Branch).
+This site is hosted on GitHub pages, and deployed from the master branch using the following method:
+
+1. Navigate to repository
+2. Click on the settings cog
+3. Scroll down to Github Pages section
+4. Select Source dropdown
+5. Select Master Branch
+6. Copy link provided
+
 The deployed site will update automatically upon new commits to the this branch. 
 In order for the site to deploy correctly on GitHub pages, the home page must be named index.html.
 
+*To run locally*, you should clone the repository directly into the IDE of your choice as follows. 
 
-*To run locally*, you should clone the repository directly into the IDE of your choice. 
+1. From [this repository](https://github.com/jonburdon/calm-little-stars) this repository click the green Clone or Download button.
 
-Paste the following into the terminal of your IDE. :tada:
+2. *OR* Copy the following:  `git clone https://github.com/jonburdon/calm-little-stars.git`
 
-`git clone https://github.com/jonburdon/calm-little-stars.git`
+3. Paste the copied link into the terminal of your IDE. :+1:
 
-To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+4. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+ 
+Use this [Video Tutorial on how to clone a Github Repository](https://www.youtube.com/watch?v=O72FWNeO-xY) or see GitHub help pages for more support.
 
 
 ## Credits
@@ -255,7 +266,9 @@ To Inspect which fonts are used where on various websites: Chrome Extension ‘W
 * https://cms-tc.pbskids.org/parents/expert-tips-and-advice/pressing-pause-how-mindfulness-helps-kids-hero.jpg?mtime=20181008031829
 * Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
 
-## Sites used for quotations and research and downloadable pdf
+## Sites used for quotations, research and downloadable pdf
 1. https://childmind.org/article/the-art-and-science-of-mindfulness/
 2. https://parentswithconfidence.com/mindfulness-with-kids/
 3. https://mindfulnessinschools.org/wp-content/uploads/2013/02/MiSP-Research-Summary-2012.pdf
+
+## Thanks go to my Code Institute fellow students who have assisted me with this project :+1: :metal:
