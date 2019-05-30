@@ -203,6 +203,7 @@ The following testing protocols were followed for each page on desktop, mobile, 
 1. Enter a correct email address in the text field and click the submit button.
 2. Enter an incorrect email address in the text field and verify this is validated when the submit button is clicked.
 3. Hover over the social media buttons and verify that they behave as expected. During testing, it was found that these buttons were not linked to social media profiles.
+* During testing it was noticed that forms can be sent with no content, so the required property was added.
 
 ### Testing protocol for the entire site
 
