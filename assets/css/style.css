@@ -1,5 +1,7 @@
 /*--------------- Fonts and Colours */
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap');
+
 /* Text shadows from https://html-css-js.com/css/generator/text-shadow/ */
 
 body {
@@ -255,7 +257,7 @@ button.navbar-toggler:focus {
     /* Added to create translucent background beneath opaque text */
     /*Edited the above to add background position, repeat and size.*/
     content: "";
-    background: url(../images/dandelion.png);
+    background: url(../images/dandelion-mobile.png);
     opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
