@@ -161,8 +161,7 @@ as a list along with icons to communicate visually with the user. A quote is inc
 - To invert colours of images and add transparency: https://www.online-image-editor.com/
 
 ## What could be implemented in future?
-1. [ ] Photography - This would ideally all be from the same shoot, with a wider range of photos
-2. and more different images eg on the benefits and the facts pages. Images would also be more precise eg. to signify trust and reassurance.
+1. [ ] Photography - This would ideally all be from the same shoot, with a wider range of photos and more different images eg on the benefits and the facts pages. Images would also be more precise eg. to signify trust and reassurance.
 2. [ ] Use javascript to ensure images are not loaded at all on mobile view
 3. [ ] Audit site for accessibility to screen readers and implement improvements
 4. [ ] Add button in footer to navigate straight to top of website
@@ -243,7 +242,6 @@ In order for the site to deploy correctly on GitHub pages, the home page must be
 4. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
  
 Use this [Video Tutorial on how to clone a Github Repository](https://www.youtube.com/watch?v=O72FWNeO-xY) or see GitHub help pages for more support.
-
 
 ## Credits
 
