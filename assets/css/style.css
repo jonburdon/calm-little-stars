@@ -41,7 +41,7 @@ h3 {
 
 .heading--5em {
     font-size: 2em;
-    /*Increases to 5em on lg*/
+    /*Increases to 5em on lg size*/
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -80,11 +80,9 @@ a:hover.nav-link {
     /* !important needed to override Bootstrap*/
 }
 
-
 .btn-outline-success {
     color: #fff;
 }
-
 
 .btn--social-icons {
     color: white;
@@ -99,8 +97,6 @@ a:hover.nav-link {
     color: #d8fce6;
     font-size: 3em;
 }
-
-
 
 /*--------------- NavBar */
 
@@ -117,16 +113,11 @@ a:hover.nav-link {
     text-align: center;
 }
 
-.nav-btn-align {
-    float: right;
-}
-
 .navbar-toggler {
     border-color: #fff !important;
 }
 
 /*Next block of code taken from https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
-
 #custom-toggler {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -150,7 +141,6 @@ button.navbar-toggler:focus {
     border-color: #fff;
     outline: 0;
 }
-
 
 /*--------------- Headings */
 
@@ -310,7 +300,6 @@ button.navbar-toggler:focus {
     position: relative;
 }
 
-
 .container-third-section-benefits {
     /*background: url('../images/discussion.jpg') no-repeat bottom right;*/
     /*background-position: center;*/
@@ -327,7 +316,7 @@ button.navbar-toggler:focus {
     padding-top: 50px;
     padding-bottom: 50px;
     background: url('../images/meditatingoutside2.jpg') no-repeat bottom right;
-    background-position: center;
+    background-position: 40% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -337,7 +326,7 @@ button.navbar-toggler:focus {
     padding-top: 50px;
     padding-bottom: 50px;
     background: url('../images/payingattention.jpg') no-repeat bottom right;
-    background-position: center;
+    background-position: 70% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -354,7 +343,7 @@ button.navbar-toggler:focus {
 }
 
 .container-callout-light {
-    background-color: aqua;
+    background-color: #669c81;
 }
 
 .container-callout-dark {
@@ -363,27 +352,22 @@ button.navbar-toggler:focus {
 
 .container--translucent {
     background-color: rgba(112, 135, 129, 0.9);
-
 }
 
 .container--translucentrounded {
     background-color: rgba(112, 135, 129, 0.9);
     border-radius: 25px;
-
 }
 
 .container--translucentgradientleft {
     background-color: rgba(112, 135, 129, 0.7);
     border-radius: 25px;
-
 }
 
 .container--translucentgradientright {
     background-color: rgba(112, 135, 129, 0.7);
     border-radius: 25px;
-
 }
-
 
 /*--------------- Content Spacing Controls */
 
@@ -430,21 +414,9 @@ button.navbar-toggler:focus {
     padding-top: 400px;
 }
 
-
-/*--------------- Content Boxes */
-
-.infobox-light {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: lightcyan;
-}
-
 .footer-item {
-    display: inline-block;
-    width: 100%;
     margin-bottom: 45px;
 }
-
 
 /*--------------- Forms */
 
@@ -452,11 +424,6 @@ button.navbar-toggler:focus {
     border-radius: 25px;
     height: 48px;
 }
-
-.input--width {
-    width: 100%;
-}
-
 
 /*--------------- Media Queries */
 
@@ -483,7 +450,6 @@ button.navbar-toggler:focus {
     .container--padding300--bottom-sm-middle-md {
         padding-top: 150px;
         padding-bottom: 150px;
-
     }
 
     .container-second-section {
@@ -502,11 +468,11 @@ button.navbar-toggler:focus {
         margin-right: 25px;
     }
 
+/*Add gradient on larger screens to create visual flow from image focal point towards text*/
     .container--translucentgradientleft {
         background-color: rgba(112, 135, 129, 0);
         background-image: linear-gradient(to right, rgba(112, 135, 129, 0) 0%, rgba(112, 135, 129, 0) 45%, rgba(112, 135, 129, 0.7) 60%, rgba(112, 135, 129, 0.7) 100%) !important;
         border-radius: 25px;
-
     }
 
     .container--translucentgradientright {
