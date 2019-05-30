@@ -45,7 +45,6 @@ The primary goal of the site is to encourage users to subscribe / book classes.
 4. User 4: Child
 - I want to know if the classes are fun and exciting so that I can make a decision
 
-
 [User Stories are detailed on the User Stories tab of this project planning.](https://drive.google.com/open?id=1D2MeRDDDwn4X1mSqgvjedWAA7WsZ9c-g0en3nZsWz0g)
 ---
 
@@ -58,18 +57,43 @@ Link to WireFrames: https://drive.google.com/open?id=1oYDkXeOMoq6XRn-A80AdThW_fi
 
 ## Features
 
+Each page features an identical navbar. The bar is fully responsive, collapsing on medium
+screens and below. It includes a call to action button which is always visible. 
+Each page has an identical footer which includes the opportunity to sign up for a newsletter, and social media 
+buttons which link to the Facebook and Twitter (these would be linked to business social media profiles if the site was to be deployed.)
+
+New section
+
+New Section \s
+
+New Section
+
 ## Technologies used
+* HTML and CSS programming languages
+* Bootstrap 4.3.1
+* Bootstrap CDN used to load Fontawesome icons
+* Flex as implemented through Bootstrap 4
+* Cloud9 IDE for development of this site. GIT was used to push files to Github
+* jQuery was loaded by Bootstrap in order to implement the collapsable navbar
+* Popper.js was loaded by Bootstrap in order to implement the collapsable navbar
+
+### Tools used for automation
+- To convert hex codes to rgba: https://www.rapidtables.com/convert/color/hex-to-rgb.html
+- To create colour pallette from image: http://www.palettefx.com/
+- To find tints and tones of a specific colour: https://coolors.co/
+- To pick colours from image when building colour scheme: https://imagecolorpicker.com/
+- To invert colours of images and add transparency: https://www.online-image-editor.com/
 
 ## What could be implemented in future?
-1. Photography - This would ideally all be from the same shoot
-2. Use javascript to ensure images are not loaded at all on mobile view
-3. Audit site for accessibility to screen readers and implement improvements
-4. Add button in footer to navigate straight to top of website
-5. Improve form to create a full booking form - dates of classes required, number of places, safeguarding waiver etc.
-6. Add further content detailing exactly what happens in a session
-7. Add a video library of testimonials and short clips of sessions
-8. Add button to aid navigation from footer to top of index.html
-9. Add EU Cookie Warning and add Google Analytics pixel code to track visitors
+1. [ ] Photography - This would ideally all be from the same shoot
+2. [ ] Use javascript to ensure images are not loaded at all on mobile view
+3. [ ] Audit site for accessibility to screen readers and implement improvements
+4. [ ] Add button in footer to navigate straight to top of website
+5. [ ] Improve form to create a full booking form - dates of classes required, number of places, safeguarding waiver etc.
+6. [ ] Add further content detailing exactly what happens in a session
+7. [ ] Add a video library of testimonials and short clips of sessions
+8. [ ] Add button to aid navigation from footer to top of index.html
+9. [ ] Add EU Cookie Warning and add Google Analytics pixel code to track visitors
 
 
 ## Testing
@@ -121,13 +145,6 @@ The following testing protocols were followed for each page on desktop, mobile a
 ### CSS code snippets used
 * https://css-tricks.com/snippets/css/transparent-background-images/
 * https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color
-
-### Tools used for automation
-- To convert hex codes to rgba: https://www.rapidtables.com/convert/color/hex-to-rgb.html
-- To create colour pallette from image: http://www.palettefx.com/
-- To find tints and tones of a specific colour: https://coolors.co/
-- To pick colours from image when building colour scheme: https://imagecolorpicker.com/
-- To change colours of images and add transparency: https://www.online-image-editor.com/
 
 To Inspect which fonts are used where on various websites: Chrome Extension ‘What Font’
 
