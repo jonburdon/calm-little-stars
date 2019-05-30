@@ -159,6 +159,7 @@ as a list along with icons to communicate visually with the user. A quote is inc
 - To find tints and tones of a specific colour: https://coolors.co/
 - To pick colours from image when building colour scheme: https://imagecolorpicker.com/
 - To invert colours of images and add transparency: https://www.online-image-editor.com/
+- To create custom favicon https://www.favicon-generator.org/
 
 ## What could be implemented in future?
 1. [ ] Photography - This would ideally all be from the same shoot, with a wider range of photos and more different images eg on the benefits and the facts pages. Images would also be more precise eg. to signify trust and reassurance.
