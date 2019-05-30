@@ -153,12 +153,13 @@ as a list along with icons to communicate visually with the user. A quote is inc
 
 ## Technologies used
 * HTML and CSS programming languages
-* Bootstrap 4.3.1
-* Bootstrap CDN used to load Fontawesome icons
-* Flex as implemented through Bootstrap 4
-* Cloud9 IDE for development of this site. GIT was used to push files to Github
-* jQuery was loaded by Bootstrap in order to implement the collapsable navbar
-* Popper.js was loaded by Bootstrap in order to implement the collapsable navbar
+* [Bootstrap](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Flex](http://flexboxgrid.com/) as implemented through Bootstrap 4
+* [Cloud9](https://c9.io/) IDE for development of this site. GIT was used to push files to Github
+* [jQuery](https://jquery.com/) was loaded by Bootstrap in order to implement the collapsable navbar
+* [Popper.js](https://popper.js.org/) was loaded by Bootstrap in order to implement the collapsable navbar
+* [Git](https://git-scm.com/)
 
 ### Tools used for automation
 - To validate html https://validator.w3.org/
@@ -281,3 +282,7 @@ To Inspect which fonts are used where on various websites: Chrome Extension ‘W
 3. https://mindfulnessinschools.org/wp-content/uploads/2013/02/MiSP-Research-Summary-2012.pdf
 
 ## Thanks go to my Code Institute fellow students who have assisted me with this project :+1: :metal:
+
+## Disclaimer
+
+This project is for educational purposes only and copyright permission has not been obtained for each image.
